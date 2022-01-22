@@ -1,0 +1,84 @@
+#Experimental .CreateAccountWrapper {
+	margin: 17px 0 0 -89px;
+}
+
+.Footer {
+	width: 970px;
+	margin: 0 auto;
+	padding: 10px 0;
+	color: Black;
+	text-align: center;
+}
+
+.Footer.Experimental {
+	background-color: #123f83;
+	color: #899fc1;
+	width: 100%;
+}
+
+.Experimental a {
+	color: white;
+}
+
+div.Experimental p.Legalese {
+	font-size: 10px;
+	padding: 0;
+	line-height: 20px;
+}
+
+.FooterContent {
+	width: 935px;
+	margin: 0 auto;
+}
+
+.FooterParagraph {
+	float: left;
+	margin-top: 31px;
+	color: #899fc1;
+}
+
+.FooterLegaleseContainer {
+	float: right;
+	width: 715px;
+	padding: 10px 0 10px 20px;
+	text-align: left;
+	border-left: 1px solid #335d99;
+}
+
+#Experimental .title {
+	text-align: left;
+	margin: 0 0 20px 20px;
+}
+
+#Experimental .SignupWrapper {
+	float: right;
+	width: 525px;
+	padding-bottom: 10px;
+	padding-left: 9px;
+}
+
+#Experimental .VideoSubtitle {
+	margin-top: 0;
+}
+
+#Experimental .VideoContainer {
+	float: left;
+	display: inline;
+	padding: 0 5px;
+	width: 381px;
+}
+
+#Experimental .Content {
+	min-height: 252px;
+	padding: 8px 8px 8px 8px;
+	margin-bottom: 0;
+	border-bottom: none;
+}
+
+.valid-container {
+	left: 2px;
+}
+
+#Experimental .SignupWrapper h1 {
+	margin: 0 0 10px 20px;
+}

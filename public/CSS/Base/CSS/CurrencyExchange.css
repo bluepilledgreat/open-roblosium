@@ -1,0 +1,240 @@
+#TradeCurrencyContainer {
+	margin-top: 10px;
+}
+
+#TradeCurrencyContainer .TradeBox {
+	width: 100px;
+}
+
+#TradeCurrencyContainer .LeftColumn {
+	float: left;
+}
+
+#TradeCurrencyContainer .RightColumn {
+	float: left;
+	width: 302px;
+}
+
+#CurrencyOffersPane,
+#CurrencyBidsPane {
+	float: left;
+}
+
+.TradingDashboard {
+	margin-bottom: 10px;
+}
+
+.CurrencyQuote {
+	width: 300px;
+}
+
+.CurrencyTrade,
+.CurrencyOffers,
+.CurrencyBids {
+	width: 350px;
+}
+
+.CurrencyQuote,
+.CurrencyTrade,
+.TradingDashboard,
+.OpenBids,
+.OpenOffers,
+.TradeHistory,
+.TradingDashboard .FooterPager {
+	margin: 0 auto;
+}
+
+.CurrencyTradeDetails {
+	padding: 5px;
+	width: 320px;
+	margin: auto;
+}
+
+.CurrencyTradeDetail,
+.TradingDashboard .FooterPager {
+	padding-top: 5px;
+}
+
+.TradingDashboard .FooterPager {
+	text-align: center;
+}
+
+.CurrencyOffer,
+.AlternatingCurrencyOffer,
+.CurrencyBid,
+.AlternatingCurrencyBid {
+	padding-bottom: 6px;
+}
+
+.CurrencyQuote .TableHeader,
+.CurrencyOffers .TableHeader,
+.CurrencyBids .TableHeader {
+	font-weight: bold;
+}
+
+.CurrencyQuote .TableRow,
+.CurrencyOffers .TableRow,
+.CurrencyBids .TableRow {
+	border-top: solid 1px #000;
+}
+
+.CurrencyQuote .Pair,
+.CurrencyQuote .Rate,
+.CurrencyQuote .Spread,
+.CurrencyQuote .HighLow {
+	float: left;
+	padding: 5px;
+}
+
+.CurrencyQuote .Pair {
+	width: 50px;
+}
+
+.CurrencyQuote .Rate {
+	width: 85px;
+}
+
+.CurrencyQuote .Spread {
+	width: 30px;
+}
+
+.CurrencyQuote .HighLow {
+	width: 85px;
+}
+
+.MyMoneyPage #TradeCurrencyContainer .LeftColumn,
+.MyMoneyPage #TradeCurrencyContainer .RightColumn {
+	float: left;
+}
+
+.MyMoneyPage #TradeCurrencyContainer .RightColumn {
+	padding-left: 8px;
+}
+
+.MyMoneyPage #TradeCurrencyContainer .RightColumn .padding-top {
+	padding-top: 6px;
+}
+
+.MyMoneyPage .CurrencyOffers,
+.MyMoneyPage .CurrencyBids {
+	width: 149px;
+}
+
+.MyMoneyPage #CurrencyQuotePane .column {
+	width: 149px;
+	float: left;
+}
+
+.MyMoneyPage .menu-area {
+	width: 140px;
+	vertical-align: top;
+	height: 600px;
+	float: left;
+	padding-bottom: 10px;
+}
+
+.MyMoneyPage .menu-area .tab-item {
+	display: block;
+	padding: 5px 10px;
+	color: Black!important;
+	font-size: 14px;
+}
+
+.MyMoneyPage .menu-area .tab-item:hover {
+	text-decoration: none;
+	background-color: #EFEFEF;
+	cursor: pointer;
+}
+
+.MyMoneyPage .menu-area span.robux {
+	padding-left: 15px;
+}
+
+.MyMoneyPage .menu-area span.tickets {
+	padding-left: 13px;
+}
+
+.MyMoneyPage .menu-area .tab-item-selected {
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	background-color: #EFEFEF;
+	padding: 4px 9px;
+	font-weight: bold;
+}
+
+.MyMoneyPage .content-area {
+	width: 326px;
+	padding: 0 8px 10px 8px!important;
+	vertical-align: top;
+	float: left;
+	height: 600px;
+}
+
+.content-area .tab-content {
+	display: none;
+}
+
+.content-area .tab-content.tab-content-selected {
+	display: block;
+}
+
+.content-area th.action {
+	width: 59px;
+}
+
+.content-area .action {
+	width: 60px;
+}
+
+.content-area th.offer,
+.content-area th.bid {
+	width: 159px;
+}
+
+.content-area .offer,
+.content-area .bid {
+	width: 160px;
+}
+
+.content-area th.remainder {
+	width: 74px;
+}
+
+.content-area .remainder {
+	width: 75px;
+}
+
+.content-area th.date {
+	width: 59px;
+}
+
+.content-area .date {
+	width: 60px;
+}
+
+.content-area th.trade {
+	width: 149px;
+}
+
+.content-area .trade {
+	width: 150px;
+}
+
+.content-area th.rate {
+	width: 84px;
+}
+
+.content-area .rate {
+	width: 85px;
+}
+
+.MyMoneyPage .TradeCurrencyModalBtn {
+	margin-bottom: 5px;
+}
+
+.CurrencyTradeDetails .form-label {
+	width: 90px;
+	display: block;
+	float: left;
+}

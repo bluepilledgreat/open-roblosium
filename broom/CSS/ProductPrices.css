@@ -1,0 +1,27 @@
+﻿.StandardDividerBottom {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.row div {
+    float: left;
+}
+.row.tableheader.StandardDividerBottom {
+    font-weight: bold;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    height: 1em;
+}
+.row .providername {
+    width:250px;
+}
+.row .country,.row .price,.row .id,.row .currency,.row .delete {
+    width: 100px;
+}
+.errorMsg {
+    display: none;
+    background-color: #fff;
+    border: 1px solid red;
+}
+.errorMsg.visible {
+    display: block;
+}

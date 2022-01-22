@@ -1,0 +1,31 @@
+.default-feed-character-image {
+	width: 56px;
+	height: 83px;
+	margin: 5px 10px 0 20px;
+}
+
+.default-feed-icons {
+	float: left;
+	margin-right: 20px;
+	width: 53px;
+	height: 53px;
+}
+
+.default-roblox-feed {
+	margin: 20px;
+	margin-right: 0;
+}
+
+.default-feed-image {
+	width: 90px;
+	height: 60px;
+}
+
+.default-feed-user-image {
+	width: 90px;
+}
+
+.default-feed-content {
+	float: right;
+	width: 375px;
+}

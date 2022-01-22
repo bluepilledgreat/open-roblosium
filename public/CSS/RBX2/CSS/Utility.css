@@ -1,0 +1,245 @@
+#Container {
+	margin: 0 auto;
+	width: 100%;
+	padding: 0;
+	border: 0;
+}
+
+div#testingSitePanelWrapper,
+#BodyWrapper {
+	margin: 0 auto;
+	width: 970px;
+	background: white;
+}
+
+#Header {
+	position: absolute;
+	bottom: 0;
+	text-align: left;
+}
+
+#hlNews {
+	margin-right: 4px;
+}
+
+.AlertSpace .icons,
+.AlertSpace .icons a {
+	display: none;
+}
+
+.AlertSpace .message_icon {
+	display: none;
+}
+
+.AlertSpace .friends_icon {
+	display: none;
+}
+
+.AlertSpace .robux_icon {
+	display: none;
+}
+
+.AlertSpace .tickets_icon {
+	display: none;
+}
+
+#Header .Navigation {
+	width: 900px;
+	height: 30px;
+	background: url(/images/cssspecific/rbx2/topNav_blue.png);
+	background-position: 0 0;
+	text-align: center;
+	line-height: 20px;
+}
+
+.Navigation ul {
+	margin: 0 auto;
+	padding: 0 0 0 58px;
+}
+
+.Navigation li {
+	display: inline-block;
+	margin: 0;
+	padding: 6px 15px 0;
+	height: 24px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.Navigation li:hover {
+	background: url(/images/cssspecific/rbx2/topNav_blue.png);
+	background-position: 0 30px;
+}
+
+.Navigation a {
+	display: inline-block;
+	color: #fff;
+}
+
+.Navigation a:hover {
+	text-decoration: none;
+}
+
+.Navigation ul li a,
+.Navigation ul li a:visited {
+	border: none;
+	font-size: 16px;
+	padding: 0;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace {
+	background: none;
+	border: 1px solid #ccc;
+	float: none;
+	font-weight: bold;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	top: 0;
+	width: 155px;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace a {
+	position: absolute;
+	width: 43px;
+	padding-left: 18px;
+	background: url(/images/cssspecific/rbx2/head_infobox_icons.png) no-repeat 0 0;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace a:hover,
+#Header .AlertSpace a:active {
+	text-decoration: none;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .MessageAlert {
+	border: none;
+	background: none;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .MessageAlert a {
+	left: 13px;
+	top: 8px;
+	color: #444;
+	background-position: -2px 0;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .MessageAlert a:hover {
+	color: #aaa;
+	background-position: -2px -20px;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .RobuxAlert {
+	border: none;
+	background: none;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .RobuxAlert a {
+	left: 13px;
+	top: 28px;
+	color: #080;
+	background-position: -2px -41px;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .RobuxAlert a:hover {
+	color: #0d0;
+	background-position: -2px -61px;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .FriendsAlert {
+	border: none;
+	background: none;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .FriendsAlert a {
+	left: 79px;
+	top: 8px;
+	color: #05b;
+	background-position: -2px -81px;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .FriendsAlert a:hover {
+	color: #0cf;
+	background-position: -2px -101px;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .TicketsAlert {
+	border: none;
+	background: none;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .TicketsAlert a {
+	left: 79px;
+	top: 28px;
+	color: #a61;
+	background-position: -2px -121px;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .TicketsAlert a:hover {
+	color: #fb6;
+	background-position: -2px -141px;
+}
+
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft div.icons,
+a.icons,
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft div.message_icon,
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft div.friends_icon,
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft div.robux_icon,
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft div.tickets_icon {
+	display: none;
+}
+
+.Column2a {
+	float: left;
+}
+
+.Column1e {
+	width: 150px;
+}
+
+.transparentBkg {
+	background-color: Transparent;
+}
+
+.FriendRequestsPane {
+	width: 890px;
+}
+
+.MyRobloxContainer {
+	margin: 0 auto;
+	width: 890px;
+}
+
+#Header .AlertSpace a:active {
+	text-decoration: none;
+}
+
+.DarkGradientBox {
+	color: Black;
+}
+
+.DarkGradientBox .DGB_Header {
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	font-size: 19px;
+	font-weight: 600;
+	padding-top: 8px;
+}
+
+.DarkGradientBox .DGB_TextBox {
+	height: 18px;
+	border: 1px solid #bcbcbc;
+	width: 95%;
+	margin-right: 5px;
+	padding-left: 5px;
+}
+
+.DarkGradientBox .DGB_Label {
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	line-height: 20px;
+	padding: 1px 0;
+	position: relative;
+	text-align: left;
+}

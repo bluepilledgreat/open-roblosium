@@ -1,0 +1,28 @@
+.site-header { 
+    background:url(/images/RevisedHeader/bg-obc_header.png);
+}
+#navigation-container a.btn-logo,#navigation-container a.btn-logo:visited {
+    background:url(/images/Themes/Halloween2013/Halloween-2013-header.png);
+}
+#navigation-container a.btn-logo:hover {
+    background:url(/images/Themes/Halloween2013/Halloween-2013-header.png);
+    background-position: 0 35px;
+}
+#navigation-container .HeaderDivider {
+    border-left: 1px solid #878988;
+}
+#Footer.LanguageRedesign {
+    color:#555;
+    background-color: Black;
+}
+#Footer.LanguageRedesign div.legal { 
+    border-color:white;
+} 
+#Footer.LanguageRedesign p.Legalese {
+    color: #555;
+}
+html 
+{
+    background-color:Black;
+}
+    

@@ -1,0 +1,784 @@
+div.PromoteModalBtn {
+	background: url('/images/Buttons/btn-add_to_game-sm.png') no-repeat top left;
+	display: block;
+	width: 100px;
+	height: 23px;
+	position: relative;
+	top: 15px;
+	left: 30px;
+	margin-right: 5px;
+}
+
+div.PromoteModalBtn:hover {
+	cursor: pointer;
+	background-position: bottom left;
+}
+
+.PromoteModalErrorMessage.errorStatusBar {
+	height: auto;
+	display: none;
+	min-height: 0;
+	padding: 5px;
+}
+
+#PlaceProductPromotionSelectionPanel .thumbs-up-green {
+	width: 110px;
+	height: 110px;
+	background: url('/images/Icons/thumbs_up.png') no-repeat;
+	display: block;
+}
+
+.PromoteItemTooltip {
+	display: inline-block;
+	position: relative;
+	left: 55px;
+	top: -3px;
+}
+
+#ItemContainer {
+	margin-top: 10px;
+}
+
+#ItemContainer #Item {
+	float: left;
+	width: 800px;
+}
+
+#ItemContainer #Thumbnail {
+	height: 320px;
+	width: 320px;
+	padding: 0;
+	text-align: left;
+	min-width: 0;
+	position: relative;
+}
+
+#assetContainer {
+	float: left;
+	width: 320px;
+	overflow: hidden;
+}
+
+#ItemContainer h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#ItemContainer h3 {
+	display: block;
+}
+
+#ItemContainer .item-type {
+	margin: 2px 0 20px 0;
+	padding: 0;
+}
+
+.fblike {
+	margin-left: 20px;
+}
+
+#Summary .SummaryDetails {
+	margin: 0 20px 5px 20px;
+	padding-bottom: 40px;
+	position: relative;
+	min-height: 249px;
+	*z-index: 1;
+	width: 268px;
+	float: left;
+}
+
+.SummaryDetails .Avatar {
+	padding: 0 0 8px 0;
+}
+
+#Summary .BuyPriceBoxContainer {
+	text-align: center;
+	float: left;
+	width: 170px;
+}
+
+#Summary .BuyPriceBox {
+	width: 158px;
+	background-color: #e1e1e1;
+	border: 1px solid #a7a7a7;
+	padding: 5px;
+}
+
+#ItemContainer .GearGenreContainer {
+	padding: 12px 0 15px 0;
+	margin-top: 5px;
+}
+
+.GearGenreContainer #GenresDiv,
+.GearGenreContainer .GearDiv {
+	float: left;
+	width: 135px;
+}
+
+#GenresDiv .label {
+	margin: 0;
+}
+
+#ItemContainer #Summary #Creator {
+	float: left;
+}
+
+#Summary .DescriptionPanel {
+	clear: both;
+}
+
+#ItemContainer #Summary .Description a:hover {
+	cursor: pointer;
+}
+
+.Description.Full {
+	white-space: pre;
+}
+
+.Description.body {
+	white-space: pre-line;
+	*white-space: pre;
+	max-height: 200px;
+	overflow-x: hidden;
+}
+
+#ItemContainer #BuyWithTickets,
+#ItemContainer #BuyWithRobux {
+	margin: 5px 0;
+}
+
+.expires-div {
+	margin: 0 0 5px 0;
+}
+
+#timer {
+	margin: 0 0 5px 0;
+}
+
+#Summary .item-detail {
+	float: left;
+	padding-left: 5px;
+}
+
+.GenreInfo .GamesInfoIcon {
+	display: inline-block;
+	background-image: url(/images/GenreIcons/GenreIconsSprite.png);
+	width: 16px;
+	height: 16px;
+}
+
+.RobuxAndTicketsPurchasePanel {
+	background: url('/images/UI/img-or_divider.png') no-repeat top left;
+	display: block;
+	height: 8px;
+	width: 147px;
+	margin: 0 0 5px 5px;
+}
+
+.LimitedEditionRemaining,
+#RobuxPurchaseDisabledMsg,
+#PricePublicDomain,
+.PrivateSalesPurchasePanel,
+.PrivateSalesPurchasePanel .Price,
+#Summary .BuyPriceBox,
+.PublicDomainPrice {
+	margin-bottom: 5px;
+}
+
+.PrivateSalesPurchasePanel .Price {
+	display: block;
+}
+
+.PrivateSalesPurchasePanel .invisible,
+.ItemOptions .invisible,
+pre.Description.Full,
+.SetListDropDownList .menu a.invisible {
+	display: none;
+}
+
+#ItemContainer #Summary {
+	float: left;
+	margin-bottom: 20px;
+	padding: 0;
+	width: 480px;
+}
+
+.BuyPriceBoxContainer .FavoriteStar {
+	background: url('/images/star.png') no-repeat;
+	padding: 2px 0 2px 20px;
+	margin-top: 5px;
+}
+
+#ItemContainer #Summary .ContentRating {
+	margin-left: 1px;
+	margin-top: 3px;
+}
+
+#ItemContainer .UserOwns {
+	display: none;
+}
+
+#Tabs {
+	margin-bottom: 10px;
+}
+
+.ui-tabs-hide {
+	display: none;
+}
+
+#ItemContainer .Ownership {
+	float: right;
+}
+
+.badge-description {
+	overflow: hidden;
+	margin-top: 5px;
+}
+
+.PrivateSales {
+	padding-top: 20px;
+}
+
+.PrivateSales h2 {
+	margin: 0 0 15px 0;
+	display: block;
+}
+
+#UserSalesTab {
+	width: 330px;
+	float: left;
+	margin-right: 7px;
+}
+
+.ItemSalesTable {
+	width: 100%;
+}
+
+#UserSalesTab .SellerNameAndSerial {
+	width: 155px;
+	margin-left: 2px;
+}
+
+#UserSalesTab .SellerName {
+	margin: 2px 0;
+	padding: 0;
+}
+
+#UserSalesTab .SerialNum {
+	margin: 2px 0;
+	padding: 0;
+}
+
+#UserSalesTab .PriceBuyContainer {
+	text-align: center;
+}
+
+#UserSalesTab td {
+	padding-bottom: 10px;
+}
+
+.pgItemsForResale {
+	text-align: center;
+}
+
+.PriceGraph {
+	width: 380px;
+	float: left;
+	overflow: hidden;
+	padding-left: 7px;
+}
+
+.PriceGraph .header {
+	margin-top: 0;
+}
+
+.PriceGraph .Options,
+.pricestats {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.pricestats .days30,
+.pricestats .days90,
+.pricestats .days180 {
+	display: none;
+}
+
+.pricestats span.selected {
+	display: inline;
+}
+
+#days30:hover,
+#days90:hover,
+#days180:hover {
+	cursor: pointer;
+}
+
+.createSetPanelPopup {
+	width: 400px;
+	height: 100%;
+	padding: 0;
+	float: left;
+	display: none;
+}
+
+.createSetPanelPopup div {
+	float: left;
+}
+
+.closeBtnCircle_35h:hover {
+	background-position: 0 35px;
+}
+
+.closeBtnCircle_35h {
+	width: 35px;
+	height: 35px;
+	background: url(/images/Buttons/closeBtnCircle_35h.png);
+}
+
+.closeBtnCircle_20h:hover {
+	background-position: 0 20px;
+}
+
+.closeBtnCircle_20h {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	margin-left: 395px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background: url(/images/Buttons/btn-x.png);
+}
+
+.PurchaseModal .simplemodal-close a {
+	background: url('/images/Buttons/btn-x.png') no-repeat top left;
+	display: block;
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	right: 5px;
+}
+
+.PurchaseModal .simplemodal-close a:hover {
+	background-position: bottom left;
+	cursor: pointer;
+}
+
+#ProcessingView {
+	width: 200px;
+}
+
+#ProcessingView p {
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.AssetRecommenderContainer {
+	text-align: center;
+}
+
+.AssetRecommenderContainer td {
+	padding: 0 7px;
+}
+
+.AssetRecommenderContainer tr {
+	display: block;
+}
+
+.SetList.ItemOptions {
+	position: relative;
+	top: 0;
+	right: 210px;
+	float: right;
+}
+
+.SetList.ItemOptions a.btn-dropdown,
+.ItemOptions a.btn-dropdown-active {
+	width: 13px;
+}
+
+#ItemContainer #Summary #ReportAbuse {
+	margin: 0 auto;
+	padding: 4px;
+	text-align: center;
+}
+
+.CommentText .SuperSafePanel {
+	left: 322px;
+}
+
+.CommentsItemTemplate {
+	display: none;
+}
+
+#ItemContainer .AjaxCommentsContainer {
+	margin: 10px;
+	margin-top: 0;
+	width: 570px;
+}
+
+#ItemContainer .AjaxCommentsContainer {
+	padding-bottom: 5px;
+}
+
+.Comments .DeleteCommentButton:hover {
+	cursor: pointer;
+}
+
+.Comments .more span:hover {
+	cursor: pointer;
+}
+
+.Comments .empty,
+.Comments .more {
+	text-align: center;
+}
+
+.Comments .loading {
+	background: #fff url('/images/ProgressIndicator4.gif') no-repeat center;
+	width: 100%;
+	height: 100px;
+}
+
+#ItemContainer .AjaxCommentsContainer .Comments {
+	overflow: hidden;
+	width: 663px;
+	margin-top: 15px;
+}
+
+#ItemContainer .AjaxCommentsContainer .Comment {
+	padding: 0;
+}
+
+#ItemContainer .AjaxCommentsContainer .Comment {
+	margin-bottom: 15px;
+}
+
+#ItemContainer .AjaxCommentsContainer .Commenter {
+	float: left;
+	width: 110px;
+}
+
+#ItemContainer .AjaxCommentsContainer .Avatar {
+	height: 100px;
+	width: 100px;
+}
+
+#ItemContainer .AjaxCommentsContainer .Post .Audit {
+	margin-bottom: 5px;
+}
+
+#ItemContainer .AjaxCommentsContainer .Post .Audit .ByLine {
+	float: left;
+}
+
+#ItemContainer .AjaxCommentsContainer .Post .Audit .AbuseButton {
+	float: right;
+}
+
+#ItemContainer .AjaxCommentsContainer .PostContainer {
+	float: left;
+}
+
+#ItemContainer .AjaxCommentsContainer .Post,
+#ItemContainer .AjaxCommentsContainer .PostBottom {
+	float: none;
+	background: url('/images/UI/bg-comments-extra-long.png') no-repeat;
+	padding: 15px 15px 15px 35px;
+	width: 410px;
+}
+
+#ItemContainer .AjaxCommentsContainer .Post {
+	min-height: 48px;
+}
+
+#ItemContainer .AjaxCommentsContainer .PostBottom {
+	background-position: bottom left;
+}
+
+#ItemContainer .AjaxCommentsContainer .Content {
+	overflow: hidden;
+	margin: 10px 0;
+}
+
+.AjaxCommentsContainer .PostACommentContainer {
+	margin: 15px 0 0 0;
+	padding-bottom: 15px;
+}
+
+.AjaxCommentsContainer .PostAComment {
+	margin: 0;
+	float: left;
+}
+
+.AjaxCommentsContainer .PostAComment .Buttons {
+	margin: 10px 0 0 0;
+	padding: 0 10px 10px 10px;
+	background: url('/images/UI/bg-comments-compose-v2.png') no-repeat -20px bottom;
+	*background-position: 0 bottom;
+	*padding-bottom: 0;
+}
+
+#ItemContainer .AjaxCommentsContainer .MultilineTextBox,
+#ItemContainer .AjaxCommentsContainer textarea {
+	min-height: 0;
+	width: 420px;
+	background: transparent;
+	overflow: auto;
+	border: none;
+	height: 95px;
+}
+
+#ItemContainer .AjaxCommentsContainer div.MultilineTextBox {
+	cursor: pointer;
+}
+
+.AjaxCommentsContainer textarea:focus {
+	outline: none;
+}
+
+#ItemContainer .AjaxCommentsContainer .CommentText {
+	background: url('/images/UI/bg-comments-compose-v2.png') no-repeat;
+	padding-left: 20px;
+	width: 440px;
+}
+
+#ItemContainer .BlueCommentBtn {
+	float: right;
+}
+
+#CharsRemaining {
+	margin: 3px 8px;
+}
+
+.AjaxCommentsContainer #CharsRemaining {
+	float: right;
+}
+
+#ItemContainer .AjaxCommentsContainer .PostAComment {
+	margin: 10px 0 0 0;
+}
+
+#ItemContainer .AjaxCommentsContainer .PostAComment .Buttons {
+	margin: 10px 0 0 0;
+}
+
+.btn-blue-ok-sharp {
+	height: 50px;
+	width: 102px;
+	display: inline-block;
+	background: url('/images/Buttons/btn_blue_ok_l.png') top left no-repeat;
+}
+
+.btn-blue-ok-sharp:hover {
+	cursor: pointer;
+	background-position: bottom left;
+}
+
+.centered-error-container {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.UserOwnsAsset {
+	display: inline-block;
+	height: 9px;
+	width: 9px;
+	vertical-align: middle;
+	margin-right: 4px;
+	top: 50%;
+	margin-top: -4.5px;
+	background: url('/images/Icons/comment-user-owns-asset.png');
+}
+
+#ItemContainer #Actions,
+#ItemContainer #Actions_Place {
+	min-width: 0;
+	overflow: hidden;
+	top: 420px;
+	width: 408px;
+	padding: 5px;
+	text-align: left;
+}
+
+#ItemContainer #Actions {
+	padding: 5px;
+	text-align: left;
+	width: 230px;
+}
+
+.AbuseReportTemplate {
+	display: none;
+}
+
+.CustomizeCharacterLink {
+	display: block;
+	margin-top: 10px;
+}
+
+.PurchaseModalMessage.SuccessMsg {
+	padding: 30px 20px 20px 20px;
+	height: auto;
+}
+
+.PurchaseModal span.Robux,
+.PurchaseModal span.Tickets,
+.PurchaseModal span.Free {
+	margin-bottom: 2px;
+}
+
+.PurchaseModalClose {
+	cursor: pointer;
+	position: absolute;
+	right: -18px;
+	top: -18px;
+}
+
+.PurchaseModal {
+	width: 435px;
+	display: none;
+	position: absolute;
+	border: 2px solid #272727;
+	background-color: #E1E1E1;
+	padding: 5px;
+}
+
+.PurchaseModal .titleBar {
+	background-color: #E1E1E1;
+	font-weight: bold;
+	font-size: 27px;
+	letter-spacing: -1px;
+	color: #363636;
+	height: 38px;
+	text-align: center;
+}
+
+.PurchaseModalBody {
+	background-color: #fff;
+}
+
+.PurchaseModalMessage {
+	padding: 10px;
+	height: 110px;
+}
+
+.PurchaseModalMessageImage {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 110px;
+	height: 110px;
+}
+
+.PurchaseModalMessageText {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 275px;
+	vertical-align: top;
+	padding-top: 28px;
+}
+
+.PurchaseModalButtonContainer {
+	clear: left;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.PurchaseModalFooter {
+	text-align: center;
+	margin: 10px auto 0;
+	padding-bottom: 5px;
+}
+
+.ProcessingModal {
+	width: 300px;
+	min-height: 50px;
+	display: none;
+	position: absolute;
+}
+
+.ProcessingModalBody {
+	margin: 15px auto;
+	text-align: center;
+	vertical-align: middle;
+	background: none;
+}
+
+.CurrencyColor1 {
+	color: #080;
+	padding-left: 20px;
+	background: url(/images/cssspecific/rbx2/head_infobox_icons.png) no-repeat 0 -42px;
+}
+
+.CurrencyColor2 {
+	color: #A61;
+	padding-left: 20px;
+	background: url(/images/cssspecific/rbx2/head_infobox_icons.png) no-repeat 0 -122px;
+}
+
+.CurrencyColorFree {
+	color: #080;
+}
+
+.calloutParent {
+	position: relative;
+}
+
+div.callout {
+	width: 175px;
+	height: 35px;
+	min-height: 50px;
+	position: absolute;
+	top: -92px;
+	left: 73px;
+	color: #ccc;
+	text-shadow: 0 0 1px #000;
+	background-color: #444;
+	background-image: -moz-linear-gradient(top, #444, #444);
+	border: 1px solid #333;
+	border-radius: 3px;
+	box-shadow: 0 0 20px #999;
+	margin: 10px;
+	padding: 10px;
+	z-index: 999;
+}
+
+.callout::before {
+	content: "";
+	width: 0;
+	height: 0;
+	border: .8em solid transparent;
+	position: absolute;
+}
+
+.callout.top-left::before {
+	left: 7px;
+	bottom: -20px;
+	border-top: 10px solid #444;
+}
+
+.fadeInAndOut {
+	display: none;
+}
+
+#ResalePanel .btn-negative {
+	margin-left: 10px;
+}
+
+.actions {
+	position: relative;
+	height: 22px;
+	clear: both;
+	padding-bottom: 15px;
+}
+
+.actions .voting {
+	position: absolute;
+	top: 0;
+	left: 10px;
+}

@@ -1,0 +1,78 @@
+#videoPrerollPanel {
+	display: none;
+	width: 713px;
+	height: 473px;
+	padding: 20px 20px 20px 35px;
+	background-color: #fff;
+}
+
+#videoPrerollTitleDiv {
+	font-family: Arial, Sans-Serif;
+	font-size: 17px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+#videoPrerollMainDiv {
+	width: 391px;
+	height: 312px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#videoPrerollCompanionAd {
+	width: 300px;
+	height: 250px;
+	margin: 0;
+	padding-top: 25px;
+	padding-left: 20px;
+	float: left;
+}
+
+#videoPrerollLoadingDiv {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial, Sans-Serif;
+	font-weight: bold;
+	font-size: 12px;
+	clear: both;
+	width: 584px;
+	padding-top: 30px;
+}
+
+#videoPrerollLoadingBar {
+	width: 582px;
+	height: 8px;
+	border: 1px solid #697D03;
+	background-color: #808081;
+}
+
+#videoPrerollLoadingBarCompleted {
+	background-color: #cbff01;
+	height: 8px;
+	width: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#videoPrerollJoinBC {
+	text-align: center;
+	font-size: 15px;
+	font-family: Arial, Sans-Serif;
+	font-weight: bold;
+	padding-top: 22px;
+}
+
+#videoPrerollJoinBCButton {
+	width: 180px;
+	height: 40px;
+	background-image: url(/images/VideoPreRoll/btn-buildersclub.png);
+	background-position: top;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#videoPrerollJoinBCButton:hover {
+	background-position: bottom;
+}

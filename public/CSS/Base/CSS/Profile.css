@@ -1,0 +1,124 @@
+legend span {
+	color: #777;
+	line-height: 6px;
+}
+
+.GrayButton,
+.GrayButton:link,
+.GrayButton:visited,
+.GrayButton:active {
+	background: url(/images/buttons/bg-form_btn_lg-tile.png) repeat-x top left;
+	border: 1px solid #777;
+	padding: 4px 8px 0;
+	height: 21px;
+	font: 13px Arial, Helvetica, sans-serif;
+	color: #000;
+	text-align: center;
+	display: block;
+	float: left;
+}
+
+.GrayButton:hover {
+	background-position: bottom left;
+	border-color: #888;
+	text-decoration: none;
+}
+
+.GrayButton.Disabled {
+	border: 1px solid #ccc;
+	color: #a7a7a7;
+	cursor: default;
+}
+
+.GrayButton.Disabled:hover {
+	background-position: top left;
+}
+
+.GrayDropdown {
+	position: relative;
+	text-align: left;
+	display: block;
+	float: left;
+}
+
+.GrayDropdown .Button {
+	background: url(/images/buttons/bg-drop_down_btn.png) no-repeat right top;
+	border: 1px solid #777;
+	padding: 4px 17px 0 8px;
+	height: 21px;
+	font: 13px Arial, Helvetica, sans-serif;
+	color: #000;
+	text-align: center;
+	display: block;
+	position: relative;
+	z-index: 2;
+}
+
+.GrayDropdown .Button:hover {
+	background-position: right center;
+	border-color: #888;
+	text-decoration: none;
+}
+
+.GrayDropdown .Button.Active {
+	background-position: right bottom;
+	border-bottom: none;
+	height: 22px;
+}
+
+.GrayDropdown .Menu {
+	background-color: #efefef;
+	border: 1px solid #777;
+	position: absolute;
+	top: 26px;
+	z-index: 1;
+	font: 12px normal Arial, Helvetica, sans-serif;
+	width: 100px;
+	display: none;
+}
+
+.GrayDropdown .Menu .Item {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	padding: 2px 8px;
+	margin: 4px 0;
+	cursor: pointer;
+}
+
+.GrayDropdown .Menu .Item.Disabled {
+	color: #A7A7A7;
+}
+
+.GrayDropdown .Menu .Item:hover {
+	background-color: #095fb5;
+	color: #fff;
+}
+
+.GrayDropdown .Menu .Item.Disabled:hover {
+	background-color: inherit;
+	color: #a7a7a7;
+	cursor: default;
+}
+
+.SendMessageProfileBtnDiv {
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+.SendMessageProfileBtnDiv .SuperSafePanel {
+	left: 7px;
+}
+
+#updateStatusBox .SuperSafePanel {
+	left: 474px;
+}
+
+.friend-request-button:hover {
+	cursor: pointer;
+}
+
+.friend-request-button.Disabled:hover {
+	cursor: default;
+}

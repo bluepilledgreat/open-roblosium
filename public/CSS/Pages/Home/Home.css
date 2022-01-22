@@ -1,0 +1,187 @@
+.home-container {
+	margin-left: 10px;
+}
+
+.left-column {
+	width: 230px;
+	float: left;
+}
+
+.left-column-boxes {
+	padding: 5px;
+	padding-top: 12px;
+	padding-left: 12px;
+	overflow: hidden;
+	margin-bottom: 5px;
+	border: 1px solid #ccc;
+}
+
+.middle-column {
+	margin-left: 10px;
+	float: left;
+	width: 470px;
+}
+
+.middle-column-box {
+	overflow: hidden;
+}
+
+.right-column {
+	margin-left: 10px;
+	float: left;
+	width: 230px;
+}
+
+.right-column-box {
+	overflow: hidden;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+.see-more-img {
+	width: 9px;
+	height: 9px;
+}
+
+.news-container {
+	margin-top: 6px;
+}
+
+.best-friends-container {
+	margin-top: 9px;
+}
+
+.share-button {
+	padding: 0 20px!important;
+	float: right;
+}
+
+.status-update {
+	padding: 5px;
+	background-color: #e6e6e6;
+}
+
+.user-avatar-holder {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.user-avatar {
+	display: inline-block;
+	height: 200px;
+	width: 150px;
+}
+
+.user-avatar-image {
+	height: 200px;
+	width: 150px;
+}
+
+.user-avatar-container {
+	text-align: center;
+	padding: 5px;
+}
+
+.user-avatar-overlay-image {
+	position: absolute;
+	left: 34px;
+	bottom: 0;
+}
+
+.feed-container {
+	padding: 10px 0;
+	float: left;
+}
+
+.feed-image-container {
+	float: left;
+	padding: 0 12px 10px 5px;
+}
+
+.feed-text-container {
+	float: left;
+	width: 380px;
+	overflow-x: hidden;
+	word-wrap: break-word;
+}
+
+.feed-report-abuse {
+	float: left;
+	padding: 0 5px;
+}
+
+.feed-loading-image {
+	margin-left: 10px;
+	position: relative;
+	top: 4px;
+}
+
+.post-to-facebook {
+	text-align: right;
+	margin-top: 5px;
+}
+
+.edit-friends-button {
+	float: right;
+	margin-right: 4px;
+}
+
+.best-friends-title {
+	float: left;
+	margin-top: 4px;
+}
+
+.recent-place-container {
+	margin-bottom: 10px;
+	display: none;
+}
+
+.recent-place-thumb {
+	float: left;
+	margin-right: 5px;
+}
+
+.recent-place-name {
+	font: bold 12px Arial;
+}
+
+.recent-place-players-online {
+	color: #666;
+}
+
+.recent-place-thumb-img {
+	width: 50px;
+	padding: 2px;
+}
+
+.recent-place-thumb-ps-overlay {
+	vertical-align: bottom;
+	padding-left: 2px;
+}
+
+.roblox-news-feed {
+	margin-bottom: 15px;
+}
+
+.roblox-news-feed-item {
+	background: url(/images/BulletPointArrow.png) no-repeat center left;
+	padding-left: 13px;
+	margin-bottom: 10px;
+}
+
+.facebook-share-container {
+	margin: 3px 0;
+}
+
+.facebook-share-result {
+	margin: 5px 10px;
+}
+
+.status-update-image {
+	margin: 5px;
+}
+
+.status-textbox {
+	width: 370px;
+	float: left;
+}

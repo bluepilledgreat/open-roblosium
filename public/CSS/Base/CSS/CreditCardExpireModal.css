@@ -1,0 +1,12 @@
+#UpdateCCButton {
+	width: 166px;
+	height: 50px;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(/images/Buttons/btn-updatenow.png);
+}
+
+#UpdateCCButton:hover {
+	background-position: 0 50px;
+}

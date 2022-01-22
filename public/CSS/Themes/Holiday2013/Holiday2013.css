@@ -1,0 +1,13 @@
+#navigation-container {
+    background-image: url(/images/Themes/Holiday2013/snow.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+#navigation-container a.btn-logo,#navigation-container a.btn-logo:visited {
+    background:url(/images/Themes/Holiday2013/xmas-header-logo.png);
+}
+#navigation-container a.btn-logo:hover 
+{
+    background:url(/images/Themes/Holiday2013/xmas-header-logo.png);
+    background-position: 0 35px;
+}

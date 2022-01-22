@@ -1,0 +1,77 @@
+div.AspNet-DetailsView-Data ul {
+	margin: 0;
+	padding: 0;
+}
+
+div.AspNet-DetailsView-Data li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+}
+
+ul.AspNet-Menu {
+	position: relative;
+}
+
+ul.AspNet-Menu,
+ul.AspNet-Menu ul {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+ul.AspNet-Menu li {
+	position: relative;
+	list-style: none;
+}
+
+ul.AspNet-Menu li a,
+ul.AspNet-Menu li span {
+	display: block;
+	text-decoration: none;
+}
+
+ul.AspNet-Menu ul {
+	position: absolute;
+	display: none;
+}
+
+ul.AspNet-Menu li:hover ul ul,
+ul.AspNet-Menu li:hover ul ul ul,
+ul.AspNet-Menu li.AspNet-Menu-Hover ul ul,
+ul.AspNet-Menu li.AspNet-Menu-Hover ul ul ul {
+	display: none;
+}
+
+ul.AspNet-Menu li:hover ul,
+ul.AspNet-Menu li li:hover ul,
+ul.AspNet-Menu li li li:hover ul,
+ul.AspNet-Menu li.AspNet-Menu-Hover ul,
+ul.AspNet-Menu li li.AspNet-Menu-Hover ul,
+ul.AspNet-Menu li li li.AspNet-Menu-Hover ul {
+	display: block;
+}
+
+.AspNet-Menu-Horizontal ul.AspNet-Menu li {
+	float: left;
+}
+
+.AspNet-Menu-Horizontal ul.AspNet-Menu li li {
+	float: none;
+}
+
+div.AspNet-TreeView {
+	margin: 0;
+	padding: 0;
+}
+
+div.AspNet-TreeView ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.AspNet-TreeView-Hide {
+	display: none;
+}

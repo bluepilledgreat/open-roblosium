@@ -1,0 +1,26 @@
+RewriteEngine On
+
+# Treat aspx and ashx extensions as php files
+AddType application/x-httpd-php .aspx
+AddHandler application/x-httpd-php .aspx
+
+AddType application/x-httpd-php .ashx
+AddHandler application/x-httpd-php .ashx
+
+# Redirect external .php requests to extensionless url
+RewriteCond %{THE_REQUEST} \s/.+?\.php
+RewriteRule ^(.+)\.php$ /$1 [R=301,L]
+
+# Resolve .php file for extensionless php urls
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1\.php -f [NC]
+RewriteRule ^(.+?)/?$ /$1.php [L]
+
+# Redirect -place and -item urls to correct pages
+RewriteRule ^(.*?(\b-place\b)[^$]*) PlaceItem.aspx
+RewriteRule ^(.*?(\b-item\b)[^$]*) Item.aspx
+
+# Error pages
+ErrorDocument 400 /RobloxDefaultErrorPage.aspx?code=400
+ErrorDocument 404 /RobloxDefaultErrorPage.aspx?code=404
+ErrorDocument 500 /RobloxDefaultErrorPage.aspx?code=500

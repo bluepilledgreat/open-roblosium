@@ -1,0 +1,37 @@
+.site-header { 
+    background:url(/images/Themes/Thanksgiving2013/nav-bar-bkg.png) #8D4A00; 
+}
+#navigation-container {
+    background-image: url(/images/Themes/Thanksgiving2013/leaves.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+#navigation-container a.btn-logo,#navigation-container a.btn-logo:visited {
+    background:url(/images/Themes/Thanksgiving2013/nav-logo.png);
+}
+#navigation-container a.btn-logo:hover 
+{
+    background:url(/images/Themes/Thanksgiving2013/nav-logo.png);
+    background-position: 0 35px;
+}
+#navigation-container .HeaderDivider {
+    border-left: 1px solid #B18C66;
+}
+#navigation-menu a {
+    color: #eee;
+}
+#Footer.footer-container {
+    color:#555;
+    background-color: #6F3800;
+}
+#Footer.footer-container div.legal { 
+    border-color:white;
+} 
+#Footer.footer-container p.Legalese {
+    color: #999;
+}
+html 
+{
+    background-color:#6F3800;
+}
+    

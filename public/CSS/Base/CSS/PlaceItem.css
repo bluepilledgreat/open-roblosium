@@ -1,0 +1,512 @@
+.GamePassesDisplayContainer .robux,
+.GamePassesDisplayContainer .tickets {
+	display: none;
+}
+
+#DeleteProductPromotionModal .thumbs-up-green {
+	width: 110px;
+	height: 110px;
+	background: url('/images/Icons/thumbs_up.png') no-repeat;
+	display: block;
+}
+
+.PurchaseModalMessage.SuccessMsg {
+	padding: 30px 20px 20px 20px;
+	height: auto;
+}
+
+#DeleteProductPromotionModal .thumbs-up-green {
+	width: 110px;
+	height: 110px;
+	background: url('/images/Icons/thumbs_up.png') no-repeat;
+	display: block;
+}
+
+.AbuseReportTemplate {
+	display: none;
+}
+
+#ItemContainer.PlaceItemContainer {
+	margin-top: 10px;
+}
+
+#ItemContainer.PlaceItemContainer span.robux,
+.PurchaseModal span.robux,
+#ItemContainer.PlaceItemContainer span.tickets,
+.PurchaseModal span.tickets,
+#ItemContainer.PlaceItemContainer span.robux-text,
+.PurchaseModal span.robux-text {
+	margin-bottom: 2px;
+}
+
+#ItemContainer.PlaceItemContainer.PlaceItemContainer #Summary {
+	border: none!important;
+	background: none!important;
+	background-color: #fff;
+	border: dashed 1px #555;
+	display: inline;
+	float: right;
+	padding: 7px;
+	width: 235px;
+	font-size: 11px;
+}
+
+#ItemContainer.PlaceItemContainer.PlaceItemContainer .item-header {
+	color: #000;
+	font: bold 18px Arial, Helvetica, Sans-Serif;
+	padding-bottom: 5px;
+}
+
+.PlaceItemContainer #Actions_Place {
+	border: none!important;
+	background: none!important;
+	float: right!important;
+	text-align: right!important;
+	width: auto!important;
+	padding: 0!important;
+}
+
+.PlaceItemContainer .PlayGames {
+	border: none!important;
+	background: none!important;
+}
+
+#ItemContainer.PlaceItemContainer #Item.PlaceItem {
+	float: left;
+	width: 709px;
+}
+
+.PlaceItem {
+	padding: 0 5px!important;
+}
+
+#ItemContainer.PlaceItemContainer #Thumbnail_Place {
+	border: solid 1px #eee;
+	padding: 0;
+	text-align: left;
+	min-width: 0;
+	width: 420px;
+}
+
+#ItemContainer.PlaceItemContainer #Actions,
+#ItemContainer.PlaceItemContainer #Actions_Place {
+	background-color: #fff;
+	min-width: 0;
+	overflow: hidden;
+	top: 420px;
+	width: 408px;
+	padding: 5px;
+	text-align: left;
+}
+
+#ItemContainer.PlaceItemContainer #Actions {
+	padding: 5px;
+	text-align: left;
+	width: 230px;
+}
+
+.AddRemoveFavorite {
+	background: url(/images/cssspecific/rbx2/favoriteStar_20h.png) no-repeat 0 -20px;
+	margin: 0;
+	display: inline-block;
+	position: relative;
+	top: 3px;
+	*display: inline;
+	*zoom: 1;
+	padding-top: 4px;
+	padding-left: 25px;
+	height: 18px;
+}
+
+.AddRemoveFavorite:hover,
+.AddRemoveFavorite.Favorited {
+	background-position: 0 0;
+}
+
+.PlaceItemContainer #Summary .SummaryDetails {
+	width: 270px;
+	float: left;
+	margin: 0 20px 5px 20px;
+	padding-bottom: 40px;
+	position: relative;
+	min-height: 249px;
+	*z-index: 1;
+}
+
+#GenresDiv .label {
+	margin: 0;
+}
+
+#ItemContainer.PlaceItemContainer #Summary #Creator {
+	float: left;
+}
+
+#ItemContainer.PlaceItemContainer #Summary .Description {
+	font-weight: normal;
+	line-height: normal;
+	max-height: none;
+	line-height: 1.5em;
+	padding: 0;
+	overflow-x: hidden;
+	text-align: left;
+}
+
+#ItemContainer.PlaceItemContainer #Summary .Description a:hover {
+	cursor: pointer;
+}
+
+#ItemContainer.PlaceItemContainer #Summary #ReportAbuse {
+	margin: 0 auto;
+	padding: 4px;
+	text-align: center;
+}
+
+.OwnerPlaceActionPanel {
+	position: absolute;
+	text-align: right;
+	width: 250px;
+}
+
+.OwnerPlaceAction {
+	height: 20px;
+	margin-top: 5px;
+}
+
+.PlaceItemHR {
+	background-color: #848484;
+	border: 0;
+	color: #848484;
+	height: 1px;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+#ItemContainer.PlaceItemContainer .PlayGames {
+	background-color: #ccc;
+	border: dashed 1px Green;
+	color: Green;
+	margin-top: 10px;
+	padding: 10px 5px;
+	text-align: center;
+	width: 408px;
+}
+
+#ItemContainer.PlaceItemContainer .Warning {
+	color: red;
+}
+
+#ItemContainer.PlaceItemContainer .BadgeStats {
+	width: 720px;
+	padding: 10px 0;
+}
+
+#ItemContainer.PlaceItemContainer .RunningGames {
+	background-color: #ccc;
+	border: dashed 1px #555;
+	color: #555;
+	margin-top: 10px;
+	padding: 10px 5px;
+	text-align: center;
+	width: 408px;
+}
+
+#ItemContainer.PlaceItemContainer .GameInstances {
+	background-color: #fff;
+	border: solid 1px #000;
+	color: #555;
+	width: 408px;
+}
+
+#ItemContainer.PlaceItemContainer .RefreshRunningGames {
+	margin: 10px 0;
+	text-align: center;
+}
+
+.SummaryDetails .Avatar {
+	padding: 0 0 8px 0;
+}
+
+.GroupBuildRunningGameItem {
+	border: solid 2px #50F;
+}
+
+.VisitButton,
+.VisitButtonDisabled {
+	display: inline;
+	width: 10px;
+}
+
+.VisitButtonSoloPlay,
+.VisitButtonBuild,
+.VisitButtonEdit {
+	height: 50px;
+}
+
+.VisitButtonDisabled {
+	opacity: .5;
+	filter: alpha(opacity=50);
+}
+
+.BuildSolo {
+	background: url(/images/BuildSolo2.png);
+	width: 143px;
+	height: 48px;
+}
+
+div.VisitButtonsRight a.BuildSolo {
+	float: left;
+	margin-top: 3px;
+}
+
+.EditButton {
+	background: url(/images/EditMode2.png);
+	width: 143px;
+	height: 48px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline;
+}
+
+.PersonalServerAccessDenied {
+	color: red;
+	line-height: 1.5em;
+	text-align: left;
+	margin: 15px 0;
+}
+
+.iLocked,
+.iUnlocked,
+.SharedIcon,
+.CopyLockedIcon,
+.GenreGearIcon,
+.NoGearIcon {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+
+.iUnlocked {
+	background: url(/images/cssspecific/rbx2/icon_public.png);
+}
+
+.iLocked {
+	background: url(/images/cssspecific/rbx2/icon_public.png);
+	background-position: -20px;
+}
+
+.BadgeStatsHR {
+	margin-left: 0;
+	*margin-left: -10px;
+	width: 708px;
+}
+
+#BadgeStats,
+#PassStats {
+	width: 708px;
+}
+
+.PlaceItemContainer .BadgeStatsHR {
+	width: 720px;
+}
+
+.PlaceItemContainer #BadgeStats,
+.PlaceItemContainer #PassStats {
+	width: 720px;
+}
+
+#BadgeStats .BadgeTable,
+#PassStats .BadgeTable {
+	border: 0;
+	border-spacing: 0;
+	font: normal 12px arial, helvetica, sans-serif;
+	width: 100%;
+}
+
+#BadgeStats .BadgeTable a,
+#PassStats .BadgeTable a {
+	color: #496780;
+}
+
+#BadgeStats .BadgeRow,
+#BadgeStats .AlternatingBadgeRow,
+#PassStats .BadgeRow,
+#PassStats .AlternatingBadgeRow {
+	height: 100px;
+}
+
+#BadgeStats .AlternatingBadgeRow,
+#PassStats .AlternatingBadgeRow {
+	background-color: #eee;
+	color: #000;
+}
+
+#BadgeStats .BadgeIconColumn,
+#PassStats .BadgeIconColumn {
+	text-align: center;
+	width: 100px;
+}
+
+#BadgeStats .BadgeDescriptionColumn,
+#PassStats .BadgeDescriptionColumn {
+	width: 60%;
+	padding-right: 50px;
+	padding-left: 5px;
+}
+
+#BadgeStats .BadgeStatsColumn,
+#PassStats .BadgeStatsColumn {
+	width: 26%;
+	padding-left: 5px;
+}
+
+#BadgeStats .BadgeEmptyTableColumn,
+#PassStats .BadgeEmptyTableColumn {
+	width: 100%;
+}
+
+#BadgesShowContainer,
+#PassesShowContainer {
+	text-align: center;
+	margin-top: 5px;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+
+#BadgesShowMore,
+#PassesShowMore {
+	cursor: pointer;
+}
+
+div.BadgeStats .divider-bottom {
+	margin-bottom: 10px;
+}
+
+#GamePassesPagerContainer {
+	margin-top: 10px;
+}
+
+.PlaceItemContainer .GamePassContainer .template {
+	display: none;
+}
+
+.PlaceItemContainer .GamePassContainer .roblox-item-image img {
+	width: 75px;
+	height: 75px;
+}
+
+#GamePassContainer #RobuxPurchaseDisabledPanel {
+	display: none;
+}
+
+.GamePassContainer .PublicDomainPurchasePanel {
+	float: left;
+	margin-left: 5px;
+}
+
+.GamePassContainer .PublicDomainPrice {
+	text-align: center;
+}
+
+.section {
+	padding: 8px 0 0 0;
+}
+
+#Summary .item-detail {
+	float: left;
+	padding-left: 5px;
+}
+
+#placeContainer {
+	float: left;
+	width: 420px;
+	overflow: hidden;
+}
+
+.groupBuildingGameText {
+	font-weight: bold;
+	font-style: italic;
+	line-height: 24px;
+}
+
+h3.RecommendationHeader2 {
+	padding-left: 5px;
+	padding-top: 5px;
+	width: 100%;
+}
+
+h3.RecommendationHeader2 a {
+	margin-left: 13px;
+}
+
+.WideAspectRatio {
+	font: bold 11px Arial, Helvetica, Sans-Serif;
+	padding: 0 7px;
+	width: 160px!important;
+	height: 165px;
+}
+
+.WideAspectRatio .AssetThumbnail {
+	background-color: #FFF;
+	border: 1px #000;
+	height: 100px;
+	width: 160px;
+}
+
+.WideAspectRatio .AssetDetails {
+	overflow: hidden;
+	padding: 5px;
+	height: 90px;
+	width: 158px;
+}
+
+.WideAspectRatio .AssetName a {
+	line-height: 1.5em;
+	vertical-align: top;
+}
+
+.DescriptionSeeMore {
+	cursor: pointer;
+}
+
+.SignupButtonBlue,
+.SignupButtonBlue:hover {
+	width: 120px;
+	height: 50px;
+	background: url(/images/Buttons/btn-sign_up-blue-lg.png) no-repeat top;
+	margin: 0 auto;
+}
+
+.SignupButtonBlue:hover {
+	background: url(/images/Buttons/btn-sign_up-blue-lg.png) no-repeat bottom;
+}
+
+#ItemContainer.PlaceItemContainer #Summary {
+	padding: 0;
+	margin-bottom: 20px;
+	*width: 480px;
+	float: left;
+}
+
+.PlaceItemContainer .fblike {
+	margin-left: 0;
+}
+
+.Description.Full {
+	white-space: pre;
+}
+
+.Description.body {
+	white-space: pre-line;
+	*white-space: pre;
+	max-height: 200px;
+	overflow-x: hidden;
+}
+
+#ItemContainer.PlaceItemContainer #Thumbnail {
+	border: none;
+}
+
+#ItemContainer.PlaceItemContainer #Summary .label {
+	color: #666;
+	margin: 0;
+}

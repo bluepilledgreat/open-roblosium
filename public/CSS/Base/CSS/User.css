@@ -1,0 +1,520 @@
+#UserContainer #LeftBank {
+	float: left;
+	text-align: center;
+	width: 444px;
+}
+
+#UserContainer #RightBank {
+	float: right;
+	text-align: center;
+	width: 444px;
+}
+
+#UserContainer #LeftBank #UserPageLargeRectangleAd {
+	border: none;
+}
+
+#UserPlacesPane {
+	clear: both;
+	background-color: #FFF;
+}
+
+#UserPlacesPane {
+	clear: both;
+	background-color: #FFF;
+}
+
+.FriendRequestsPane,
+#UserModelsContainer {
+	clear: both;
+	text-align: center;
+}
+
+#UserBadgesPane,
+#UserStatisticsPane {
+	margin: 10px 0 0 0;
+}
+
+#UserStatisticsPane {
+	text-align: left;
+}
+
+#FriendsPane,
+#FavoritesPane {
+	clear: right;
+	margin: 10px 0 0 0;
+}
+
+#UserAssetsPane {
+	margin-bottom: 10px;
+}
+
+#UserBadgesPane #UserBadges {
+	background-color: #fff;
+	text-align: center;
+}
+
+#ProfilePane h4 {
+	background-color: #ccc;
+	border-top: solid 1px #000;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	margin: 0;
+	text-align: center;
+}
+
+#ProfilePane p {
+	margin: .9em 0;
+	line-height: 1.6em;
+}
+
+#UserAssetsPane #UserAssets h4,
+#UserBadgesPane #UserBadges h4,
+#UserPlacesPane #UserPlaces h4,
+#UserStatisticsPane #UserStatistics h4,
+#FavoritesPane #Favorites h4 {
+	background-color: #ccc;
+	border-bottom: solid 1px #000;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	text-align: center;
+}
+
+#UserPlacesPane #UserPlaces h4 {
+	letter-spacing: .1em;
+	line-height: 1.5em;
+}
+
+#UserStatisticsPane #UserStatistics {
+	background-color: #eee;
+	padding-bottom: 10px;
+}
+
+#UserStatisticsPane #UserStatistics h4 {
+	margin-bottom: 5px;
+}
+
+#UserStatisticsPane #UserStatistics .Statistic {
+	line-height: 1.8em;
+	margin: 0 auto;
+	width: 385px;
+}
+
+#UserStatisticsPane #UserStatistics .Label {
+	float: left;
+	text-align: right;
+	width: 178px;
+}
+
+#UserStatisticsPane #UserStatistics .Value {
+	float: right;
+	width: 177px;
+}
+
+#UserModelsContainer {
+	text-align: left;
+}
+
+#Friends {
+	margin-top: 10px;
+}
+
+#Friends h4,
+#FriendRequests h4 {
+	font-size: 10pt;
+	font-weight: bold;
+	line-height: 1em;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.NoResults {
+	line-height: 1.3em;
+	padding: 10px;
+	text-align: center;
+}
+
+.Badge {
+	margin: 10px 10px;
+	text-align: center;
+}
+
+.FriendsPager {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#FriendsContainer .paging_wrapper {
+	position: relative;
+	margin: 0 10px;
+	top: 2px;
+}
+
+#FriendsContainer .paging_input {
+	width: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.Friend {
+	width: 125px;
+	height: 180px;
+	overflow: hidden;
+}
+
+.FriendContainer {
+	float: left;
+	margin: 10px;
+}
+
+.Friend .Avatar {
+	text-align: center;
+}
+
+.Friend .Summary,
+.Friend .Options {
+	margin-top: 5px;
+	text-align: center;
+}
+
+#UserContainer .CollapsiblePanelHint {
+	color: #999;
+	padding: 5px;
+	text-align: center;
+}
+
+#UserContainer #AssetsMenu {
+	float: left;
+	width: 158px;
+}
+
+#UserContainer #AssetSearchOption {
+	float: left;
+}
+
+#UserContainer #AssetUploadOption {
+	float: right;
+}
+
+#UserContainer #AssetsList {
+	clear: both;
+}
+
+#UserAssetsPane .AssetsMenuItem {
+	padding: 10px;
+	text-align: left;
+}
+
+#UserAssetsPane .AssetsMenuItem:hover {
+	background: #EFEFEF;
+}
+
+#UserAssetsPane .AssetsMenuItem_Selected {
+	padding: 10px;
+	background: #EFEFEF;
+	border: 1px solid #CCC;
+	font-weight: bold;
+	border-right: none;
+	text-align: left;
+}
+
+#UserAssetsPane .AssetsMenuButton,
+#UserAssetsPane .AssetsMenuButton_Selected {
+	color: #363636;
+	font: normal 14px/normal Arial;
+	text-decoration: none;
+}
+
+#UserAssetsPane .AssetsMenuButton_Selected {
+	font-weight: bold;
+}
+
+#UserPlaces .PanelFooter,
+#GroupPlaces .PanelFooter,
+#Favorites .PanelFooter {
+	background-color: #fff;
+	color: #333;
+	margin: 0;
+	padding: 3px;
+}
+
+#UserPlaces .Place .PlayStatus {
+	margin: 5px 0 0 0;
+	display: inline;
+}
+
+#UserPlaces .Place .PlayOptions {
+	margin: 10px 0 0 0;
+	display: block;
+	min-height: 48px;
+}
+
+#UserPlaces .Place .Statistics {
+	line-height: 1.7em;
+	border: none;
+}
+
+#UserPlaces .Place .Thumbnail {
+	border: solid 1px #555;
+	margin: 0;
+}
+
+#UserPlaces .Place .Configuration {
+	border: none;
+}
+
+#UserContainer #AssetsContent {
+	float: left;
+	margin: 0 auto;
+	margin-left: 28px;
+	margin-right: 28px;
+	min-width: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+	text-align: left;
+	width: 685px;
+}
+
+#UserContainer #AssetsContent .HeaderPager,
+#UserContainer #FavoritesContent .HeaderPager,
+#UserContainer #AssetsContent .FooterPager,
+#UserContainer #FavoritesContent .FooterPager {
+	clear: both;
+	margin: 0 12px 0 10px;
+	padding: 2px 0;
+	text-align: center;
+}
+
+#UserContainer #AssetsContent .HeaderPager,
+#UserContainer #FavoritesContent .HeaderPager {
+	margin-bottom: 10px;
+}
+
+#UserContainer #AssetsContent .HeaderPager .Label,
+#UserContainer #FavoritesContent .HeaderPager .Label,
+#UserContainer #AssetsContent .FooterPager .Label,
+#UserContainer #FavoritesContent .FooterPager .Label {
+	font-size: 1em;
+	vertical-align: middle;
+}
+
+#UserContainer .Asset {
+	margin: 0 10px 15px 10px;
+	vertical-align: top;
+	width: 112px;
+}
+
+#UserContainer .Asset .AssetThumbnail {
+	border: solid 1px #CCC;
+	height: 110px;
+	position: relative;
+	text-align: center;
+	width: 110px;
+}
+
+#UserContainer .Asset .AssetDetails {
+	overflow: hidden;
+	padding: 2px 0 6px 0;
+	text-align: left;
+	width: 110px;
+}
+
+#UserContainer .AssetName a {
+	font-weight: bold;
+	line-height: 1.5em;
+	vertical-align: top;
+}
+
+.AssetsBullet {
+	padding-right: 3px;
+}
+
+#UserContainer .Label,
+#UserContainer .Detail,
+#UserContainer .DetailHighlighted,
+#UserContainer .PriceInRobux,
+#UserContainer .PriceInTickets {
+	font-size: 12px;
+}
+
+#UserContainer .Label {
+	font-weight: 600;
+	color: #999;
+}
+
+#UserContainer .DetailHighlighted {
+	color: Red;
+	font-weight: bold;
+}
+
+#UserContainer .PriceInRobux {
+	color: Green;
+	font-weight: bold;
+}
+
+#UserContainer .PriceInTickets {
+	color: #fbb117;
+	font-weight: bold;
+}
+
+.UserOnlineMessage {
+	color: Red;
+}
+
+.UserOfflineMessage {
+	color: Gray;
+}
+
+.AdPanel {
+	position: relative;
+	margin: 0 auto;
+	z-index: 999;
+}
+
+.BanishButtonOverlay {
+	background-color: #eee;
+	border: solid 1px #444;
+	font-size: .8em;
+	padding: 1px 3px 2px 3px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	right: 0;
+}
+
+.BanishButtonOverlay:hover {
+	background-color: #fff;
+	border: solid 1px #000;
+	text-decoration: none;
+}
+
+.DeleteButtonOverlay {
+	background-color: #eee;
+	border: solid 1px #444;
+	font-size: .8em;
+	padding: 1px 3px 2px 3px;
+	position: absolute;
+	right: 2px;
+	text-align: center;
+	top: 2px;
+}
+
+.DeleteFavoriteOverlay {
+	background-color: #eee;
+	border: solid 1px #444;
+	font-size: .8em;
+	padding: 1px 3px 2px 3px;
+	position: relative;
+	left: -57px;
+	text-align: center;
+	top: -97px;
+}
+
+.DeleteButtonOverlay:hover {
+	background-color: #fff;
+	border: solid 1px #000;
+	text-decoration: none;
+}
+
+.PlaceAccessIndicator {
+	color: #000;
+}
+
+.SubscriptionStatusPanel {
+	width: 348px;
+	font-weight: bold;
+	margin-top: 5px;
+	padding: 5px 5px 5px 5px;
+	border: solid 1px black;
+	background-color: #ccc;
+}
+
+.ProfileAlertPanel {
+	width: 348px;
+	padding: 5px 5px 5px 5px;
+	background-color: #FFF;
+	border: none;
+	height: 64px;
+}
+
+.UserBlurb {
+	overflow: hidden;
+	width: 348px;
+	padding: 5px 5px 5px 5px;
+	line-height: 20px;
+	background-color: #FFF;
+	margin-bottom: 10px;
+}
+
+#AccountSettingsForm {
+	font-size: 11px;
+	line-height: 18px;
+}
+
+#AccountSettingsForm fieldset {
+	border: 1px solid #ddd;
+	padding: 5px 5px 5px 5px;
+}
+
+#OwnedSetsContainerDiv,
+#SubscribedSetsContainerDiv {
+	text-align: center;
+	padding-bottom: 25px;
+	height: auto;
+}
+
+#OwnedSetsContainerDiv .TiledSets,
+#SubscribedSetsContainerDiv .TiledSets {
+	width: 110px;
+	height: 90px;
+}
+
+.TiledSets {
+	float: left;
+	margin: 10px 10px;
+	text-align: center;
+}
+
+#OwnedSetsContainerDiv .AssetCreator,
+#SubscribedSetsContainerDiv .AssetCreator {
+	font-size: .8em;
+}
+
+#OwnedSetsContainerDiv .SetsPager_Container,
+#SubscribedSetsContainerDiv .SetsPager_Container {
+	clear: both;
+	text-align: center;
+	position: absolute;
+	bottom: 11px;
+	width: 100%;
+	*left: 0;
+}
+
+#OwnedSetsContainerDiv .loading,
+#SubscribedSetsContainerDiv .loading {
+	text-align: center;
+	height: 350px;
+	position: relative;
+	background: url('/images/ProgressIndicator4.gif') center no-repeat;
+}
+
+#OwnedSetsContainerDiv .NoSets,
+#SubscribedSetsContainerDiv .NoSets {
+	position: relative;
+	top: 10px;
+}
+
+#ToggleBetweenOwnedSubscribedSets:hover {
+	cursor: pointer;
+}
+
+#BadgesDisplayPane input[disabled],
+#UserGroupsPane input[disabled],
+#FriendRequests input[disabled] {
+	background-position: 0 -27px;
+	cursor: default;
+}

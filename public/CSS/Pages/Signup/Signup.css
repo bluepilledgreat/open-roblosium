@@ -1,0 +1,78 @@
+div.SignupWrapper .inputColumn.radio {
+	width: auto;
+}
+
+.SignupWrapper div.validation {
+	height: 14px;
+	margin-top: 5px;
+	float: left;
+	position: relative;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table td,
+table th {
+	padding: 0;
+}
+
+table#UsernameError {
+	left: -2px;
+	top: -17px;
+	display: none;
+}
+
+.SignupWrapper table#birthdayError {
+	display: none;
+	left: 2px;
+	top: -5px;
+	*top: -17px;
+}
+
+.SignupWrapper #genderError {
+	display: none;
+	height: 0;
+	top: -3px;
+}
+
+table#passwordError {
+	left: -2px;
+	top: -17px;
+	display: none;
+}
+
+table#passwordConfirmError {
+	left: -2px;
+	top: -17px;
+	display: none;
+}
+
+div.LowerRightBox span {
+	font-size: 15px;
+	font-weight: bold;
+	color: #363636;
+}
+
+div.clear {
+	clear: both;
+}
+
+input[type="radio"]#MaleBtn,
+input[type="radio"]#FemaleBtn {
+	padding: 0;
+	margin-top: -3px;
+	vertical-align: middle;
+	*height: 21px;
+	margin-right: 2px;
+}
+
+div.formRadio.signupPage {
+	margin-top: 5px;
+	width: 150px;
+}
+
+div#genderGood {
+	margin: 0;
+}

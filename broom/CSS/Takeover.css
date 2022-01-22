@@ -1,0 +1,35 @@
+﻿#MarketingConfigOptions .selected {
+    font-weight: bold;
+}
+#MarketingConfigOptions span:hover {
+    cursor: pointer;
+}
+.country-option {
+    float: left;
+    width: 33%;
+}
+.age-textbox {
+    width: 50px;
+}
+.generic-form {
+    width: 600px;
+}
+.generic-form .label {
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    left: 0px;
+}
+.generic-form .row {
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 160px;
+}
+.takeover-message {
+    background-color: #9BC4E2;
+    border: 2px inset #0D4F8B;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+#VerifyImageHolder {
+	float: left;
+	margin-right: 4px;
+	margin-top: 8px;
+}
+
+#RightColumn {
+	width: 300px;
+	float: right;
+}
+
+#VerificationResult {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+#ChildPrivacyLevel {
+	margin-bottom: 18px;
+}
+
+#RobloxForParents,
+#RobloxGiftCards,
+#GoPremium {
+	text-align: left;
+	padding: 15px 0 10px 10px;
+	border-left: 1px solid #CCC;
+}
+
+#GoPremium {
+	border-bottom: 1px solid #CCC;
+}
+
+#BLueLink {
+	margin: 16px 0 17px 10px;
+}
+
+#SideBarHeader {
+	margin: 21px 0 19px 10px;
+}
+
+#SideText {
+	margin-left: 10px;
+}

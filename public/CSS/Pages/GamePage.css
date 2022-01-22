@@ -1,0 +1,381 @@
+.redesign.place-item .builder {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.redesign.place-item .description,
+.redesign.place-item .description pre {
+	font-size: 14px;
+	line-height: 1.4em;
+}
+
+#ItemContainer.PlaceItemContainer #Item.place-item {
+	width: 762px;
+}
+
+#ItemContainer.new-game-page {
+	margin-left: 15px;
+	width: 940px;
+	position: relative;
+	min-height: 580px;
+}
+
+.new-game-page .Ads_WideSkyscraper {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.new-game-page #JoinRoblox.Ads_WideSkyscraper {
+	position: relative;
+}
+
+.place-item.redesign .left-column {
+	width: 500px;
+	float: left;
+	margin-right: 20px;
+}
+
+.place-item.redesign .right-column {
+	width: 240px;
+	float: left;
+}
+
+#ItemContainer.PlaceItemContainer h2 {
+	display: inline;
+	padding-right: 10px;
+}
+
+#ItemContainer .redesign .tab_white_31h_container .ajax__tab_inner h3 {
+	padding-right: 0;
+}
+
+.redesign.place-item .builder {
+	padding-bottom: 8px;
+	margin-bottom: 16px;
+}
+
+.redesign.place-item .buttons {
+	float: left;
+	padding-bottom: 16px;
+	width: 100%;
+}
+
+.redesign.place-item .buttons .btn-medium {
+	min-width: 120px;
+	margin-bottom: 5px;
+}
+
+#ItemContainer.PlaceItemContainer .voting {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 44px;
+}
+
+.redesign.place-item .favorite {
+	display: block;
+	position: absolute;
+	top: 3px;
+	left: 0;
+}
+
+#ItemContainer.PlaceItemContainer .builder .builder-image {
+	height: 50px;
+	width: 50px;
+	float: left;
+}
+
+#ItemContainer.PlaceItemContainer .builder .roblox-avatar-image img[title] {
+	width: 48px;
+	height: 48px;
+	margin: 1px;
+}
+
+#ItemContainer.PlaceItemContainer .builder .builder-name {
+	float: left;
+	margin-left: 10px;
+	width: 165px;
+	overflow: hidden;
+	font-size: 16px;
+	color: #343434;
+	font-weight: 600;
+}
+
+#ItemContainer.PlaceItemContainer .builder .builder-name span {
+	display: block;
+}
+
+#ItemContainer.PlaceItemContainer .builder .builder-joined {
+	float: left;
+	margin-left: 10px;
+}
+
+.place-item.redesign .statistics {
+	margin-bottom: 8px;
+}
+
+#ItemContainer.PlaceItemContainer .details {
+	clear: both;
+	margin-bottom: 14px;
+	position: relative;
+	overflow: hidden;
+}
+
+.PlaceThumbOverlay {
+	position: absolute;
+	left: auto;
+	top: 242px;
+}
+
+.PlaceThumbOverlay.Mega {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 242px;
+	left: initial;
+}
+
+.place-item .item-media {
+	position: relative;
+	margin-bottom: 16px;
+	width: 500px;
+	float: left;
+	margin-right: 16px;
+}
+
+.place-item .actions {
+	clear: both;
+	position: relative;
+	height: 22px;
+}
+
+.place-item .description {
+	margin: 24px 0;
+}
+
+.redesign.place-item .description a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.redesign.place-item .description a:hover {
+	text-decoration: underline;
+}
+
+#PlaceDescription {
+	margin: 0;
+}
+
+.place-item .details .configure {
+	padding-top: 8px;
+	margin-top: 16px;
+}
+
+.place-item .configure .form-label {
+	margin-bottom: 8px;
+}
+
+.place-item .configure div {
+	line-height: 1.5em;
+}
+
+.place-item .buttons {
+	text-align: center;
+}
+
+.place-item span.ReportAbuse {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.user-is-creator .ReportAbuse {
+	display: none;
+}
+
+.redesign.tab-container {
+	padding-left: 0;
+	width: 760px!important;
+}
+
+.PlaceProductPromotionsContainer,
+.GamePassesDisplayContainer {
+	width: 760px;
+}
+
+#ItemContainer.PlaceItemContainer .BadgeStats {
+	width: 760px;
+}
+
+.stat-label {
+	color: #000;
+	font-weight: 600;
+}
+
+#ItemContainer.PlaceItemContainer.PlaceItemContainer .redesign .item-header {
+	font: inherit;
+}
+
+.redesign .AddRemoveFavorite {
+	background: url('/images/Icons/favorite.png') no-repeat 0 0;
+	height: 17px;
+	width: 21px;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: 0;
+}
+
+.redesign .AddRemoveFavorite:hover,
+.redesign .AddRemoveFavorite.Favorited:hover {
+	background-position: 0 -34px;
+	cursor: pointer;
+}
+
+.redesign .AddRemoveFavorite.Favorited {
+	background-position: 0 -17px;
+}
+
+.iUnlocked,
+.iLocked,
+.SharedIcon,
+.CopyLockedIcon,
+.GenreGearIcon,
+.NoGearIcon {
+	height: 17px;
+}
+
+.redesign .iLocked,
+.redesign .iUnlocked,
+.redesign .SharedIcon,
+.redesign .NoGearIcon,
+.redesign .CopyLockedIcon,
+.redesign .GenreGearIcon {
+	background: url('/images/Icons/place-access-sprite.png') no-repeat 0 0;
+}
+
+.redesign .iLocked {
+	background-position: 0 -89px;
+}
+
+.redesign .iUnlocked {
+	background-position: 0 -73px;
+}
+
+.redesign .SharedIcon {
+	background-position: 0 -11px;
+}
+
+.redesign .NoGearIcon {
+	background-position: 0 -58px;
+}
+
+.redesign .CopyLockedIcon {
+	background-position: 0 6px;
+}
+
+.redesign .GenreGearIcon {
+	background-position: 0 -43px;
+	height: 15px;
+}
+
+.redesign .allowed-gear .category-icon {
+	background: url('/images/Icons/CategorySprite.png') no-repeat 1px 0;
+	height: 17px;
+	width: 17px;
+	float: left;
+}
+
+.redesign .category-icon.MeleeWeapon {
+	background-position: -47px 0;
+}
+
+.redesign .category-icon.RangedWeapon {
+	background-position: -31px -16px;
+}
+
+.redesign .category-icon.Explosive {
+	background-position: -16px 0;
+}
+
+.redesign .category-icon.PowerUp {
+	background-position: -15px -17px;
+}
+
+.redesign .category-icon.NavigationEnhancer {
+	background-position: -80px 0;
+}
+
+.redesign .category-icon.MusicalInstrument {
+	background-position: -64px 0;
+}
+
+.redesign .category-icon.SocialItem {
+	background-position: -47px -16px;
+	margin: 0 1px;
+}
+
+.redesign .category-icon.PersonalTransport {
+	background-position: 0 -16px;
+}
+
+.redesign .category-icon.all {
+	background: url('/images/Icons/place-access-sprite.png') no-repeat 0 -28px;
+	height: 16px;
+	margin-top: 1px;
+}
+
+.redesign .category-icon.no-gear {
+	background: url('/images/Icons/place-access-sprite.png') no-repeat 0 -58px;
+	height: 16px;
+	margin-top: 1px;
+}
+
+.redesign .tab_white_31h_container .ajax__tab_tab {
+	background: none;
+	margin: 0;
+	padding: 0;
+	height: auto;
+}
+
+.redesign .tab_white_31h_container .ajax__tab_inner {
+	background: #D6D6D6;
+	height: auto;
+	padding-left: 7px;
+}
+
+.redesign .tab_white_31h_container .ajax__tab_body {
+	background: none;
+	border: none;
+	padding: 0;
+	top: 0;
+}
+
+.redesign tab-container {
+	width: 709px!important;
+}
+
+.redesign .tab_white_31h_container .ajax__tab_panel {
+	padding: 10px 5px 0 5px;
+}
+
+.redesign .tab_white_31h_container .ajax__tab_header {
+	padding-left: 5px;
+}
+
+.redesign .tab_white_31h_container .ajax__tab_outer {
+	overflow: hidden;
+}
+
+.redesign .AssetRecommenderContainer {
+	margin-left: -10px;
+}
+
+.redesign .AssetRecommenderContainer td {
+	padding: 0 3px;
+}
+
+#JoinRoblox {
+	margin: 0 15px 10px 0!important;
+}

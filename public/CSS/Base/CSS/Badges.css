@@ -1,0 +1,119 @@
+#NewBadgesContainer {
+	margin-top: 10px;
+}
+
+#NewBadgesContainer .BadgeCategory {
+	padding-bottom: 10px;
+}
+
+#NewBadgesContainer .BadgeCategory ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#NewBadgesContainer .BadgePadding {
+	height: 80px;
+}
+
+#NewBadgesContainer .BadgeCategory li {
+	margin-top: -80px;
+}
+
+#NewBadgesContainer .BadgeCategory li:last-child {
+	border-bottom: none;
+}
+
+#NewBadgesContainer .BadgeContent {
+	padding: 15px 5px 5px;
+}
+
+#NewBadgesContainer .BadgeImage {
+	float: left;
+	width: 75px;
+	height: 75px;
+	padding: 0 10px 10px 0;
+	text-align: center;
+}
+
+#NewBadgesContainer .BadgeImage img {
+	height: 75px;
+}
+
+#NewBadgesContainer .BadgeDescription {
+	margin-left: 85px;
+	min-height: 75px;
+}
+
+#NewBadgesContainer h1 {
+	margin-top: 0;
+}
+
+.BadgeHint {
+	border: dashed 1px #000;
+	padding: 5px 5px 5px 5px;
+	background-color: #E8EDFF;
+}
+
+.TileBadges {
+	float: left;
+	margin: 10px 10px;
+	text-align: center;
+}
+
+#CreateBadgeContainer .ErrorViewText {
+	font-size: 13px;
+}
+
+#CreateBadgeContainer .Label {
+	width: 150px;
+	display: block;
+	float: left;
+}
+
+#CreateBadgeContainer .Robux {
+	background: url('/images/Icons/img-robux.png') no-repeat 0 1px;
+	padding: 0 0 2px 20px;
+	color: #060;
+	margin-bottom: 2px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#CreateBadgeContainer .FormElement {
+	margin-bottom: 20px;
+}
+
+#CreateBadgeContainer .PreviewImage {
+	float: left;
+	margin-right: 20px;
+}
+
+#CreateBadgeContainer .InstructionsGraphic {
+	background: url('/images/Badges/badge_instructions.png') no-repeat;
+	width: 966px;
+	height: 323px;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+#CreateBadgeContainer .BlueDownloadBtn {
+	display: block;
+	height: 34px;
+	width: 122px;
+	background: url('/images/Buttons/btn-blue-download_m.png') no-repeat top left;
+	position: absolute;
+	bottom: 27px;
+	left: 33px;
+}
+
+#CreateBadgeContainer .BlueDownloadBtn:hover {
+	background-position: bottom left;
+}
+
+#CreateBadgeContainer .GreenUploadBtn {
+	display: block;
+	height: 51px;
+	width: 130px;
+	background: url('/images/Buttons/btn-green-upload.png') no-repeat top left;
+}

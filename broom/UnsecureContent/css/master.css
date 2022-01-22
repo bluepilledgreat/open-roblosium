@@ -1,0 +1,388 @@
+div.adminDash 
+{
+    color:#585858;
+}
+body 
+{
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:13px;
+    background: #FCFCFC;
+    margin: 0;
+}
+div.header 
+{
+    margin:0 0 10px;
+    background: #F0F0F0;
+    text-align: right;
+    padding: 5px;
+    border-top: 2px solid #3679BC;
+    height: 18px;
+}
+a 
+{
+    color: #095fb5;
+    text-decoration: none;
+}
+a:hover 
+{
+    text-decoration: underline;
+}
+div.ContentPaneFloat 
+{
+    float:left;
+    padding-left: 230px;
+    min-height:500px;
+}
+div.NavigationPaneFloat 
+{
+    position:absolute;
+    width:200px;
+    border-right: 1px solid #F0F0F0; 
+}
+div.NavigationPaneFloat .navSection
+{
+    padding-left:10px;
+}
+div.NavigationPaneFloat ul 
+{
+    margin:0px;
+    margin-bottom:10px;
+}
+div.navHeader
+{
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    padding-left: 10px;
+    color: #4D4D4D;
+    font-weight: bold;
+    font-size: 15px;
+}
+h1 
+{
+    margin-top:35px;
+    margin-bottom:12px;
+    font-size: 40px;
+    font-weight: bold;
+    color:#363636;
+    letter-spacing:-2px;
+}
+h2 
+{
+    font-size:16px;
+    font-weight:bold;
+    text-transform: uppercase;
+    color:#000;
+}
+
+
+/*  Legacy */
+.StandardTabWhite,
+.StandardTabGrayActive,
+.StandardTabGray
+{
+    display:inline-block;
+	height:26px;
+	z-index: 2;
+	position:relative;
+	*display:inline;
+    *zoom:1;
+}
+.StandardTabWhite span
+{
+    *padding-right:14px;
+}
+.StandardTabGray
+{
+    background-color: #b4cde9;
+    margin-right: 4px;
+}
+li.ConfigTabs 
+{
+    padding: 6px 10px 0px 10px;
+}
+.StandardTabGrayActive
+{
+    margin-right: 4px;
+}
+
+.StandardTabGray a,
+.StandardTabGrayActive a
+{
+    color: White;
+}
+.StandardTabGray a:hover,
+.StandardTabGrayActive a:hover
+{
+    text-decoration:none;
+}
+
+.StandardTabGray:hover,
+.StandardTabGrayActive
+{
+    background-color: #6c98cb;
+    color: White;
+}
+
+div.Signin 
+{
+    margin: 0 auto;
+    width: 198px;
+    margin-top: 150px;
+    color: #666;
+}
+
+div.Signin .formRow
+{
+    margin-bottom: 5px;
+}
+div.Signin .formRow label 
+{
+    display: block;
+}
+div.Signin .formRow input
+{
+    border: 1px solid #999;
+    padding: 3px;
+    width: 190px;
+}
+
+div.Signin .formRowSubmit
+{
+    text-align: right;
+    margin-top: 12px;
+}
+div.Signin .formRowSubmit input 
+{
+    border: 1px solid #999;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin: 0;
+}
+div.Signin .formRowSubmit input:hover 
+{
+    cursor: pointer;
+    background: white;
+    color: #666;
+}
+
+div.header div.headerFloatLeft 
+{
+    float:left;
+}
+div.header div.headerFloatRight 
+{
+    float:right;
+}
+div#recaptcha_area
+{
+    margin: 0 auto;
+    margin-left: -40px;
+}
+
+
+/* mvc pages */
+
+#GroupName {
+    width: 400px;
+    height: 20px;
+}
+
+#NamePattern {
+    width: 396px;
+}
+
+#messageDiv {
+    display: none;
+}
+
+/* div containing lists of settings, maybe populated with ajax */
+.resultsContainer {
+    margin-top: 20px;
+}
+
+.settingsTableCaption {
+    padding: 3px;
+}
+
+.settingsTable 
+{
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+.settingsTable td {
+    white-space: nowrap;
+}
+
+.settingsTable td div 
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* actions column -> anchor */
+.settingsTable .a a
+{
+    color: #095fb5;
+}
+
+/* name column */
+.settingsTable .n 
+{
+    width: 250px;
+}
+
+/* value column */
+.settingsTable .v
+{
+    width: 300px;
+}
+
+/* secret value */
+.settingsTable .v span
+{
+    color: red;
+}
+
+/* connection string */
+.settingsTable .cs
+{
+    width: 400px;
+}
+
+/* comment column */
+.settingsTable .c {
+    width: 280px;
+}
+
+/* group column in connection strings */
+.settingsTable .g {
+    width: 300px;
+}
+
+/* group column trimmed */
+.settingsTable .gt {
+    width: 170px;
+}
+
+/* type column */
+.settingsTable .t {
+    width: 110px;
+}
+
+.settingsTable td,
+.settingsTable th {
+    border: 1px solid #999999;
+}
+
+.settingsTable td {
+    padding: 4px;
+}
+
+.settingsTable th {
+    padding: 5px 4px;
+    color: black;
+}
+
+.settingsTable tr:hover {
+    background-color: #DDDDDD
+}
+
+.configDialog {
+    display: none;
+}
+.configDialog input[type=text] {
+    width: 400px;
+}
+
+
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000 !important;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+
+
+/** styles for services config pages begin ***/
+.authorization-column span,
+.authorization-column a {
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.authorization-column span.selected {
+    font-weight: bold;
+    background-color: #EDEDED;
+    border-radius: 4px;
+}
+/** styles for services config pages end ***/
+
+
+
+/*** client settings beging ***/
+#client-settings label {
+	display: block; 
+}
+#client-settings .add-top-margin {
+	margin-top: 20px;
+}
+#client-settings #status-message {
+	margin-left: 5px;
+}
+#client-settings input#setting-key {
+	width: 602px; 
+	margin-bottom: 10px;
+	display: block;
+}
+#client-settings textarea {
+	width: 600px; 
+	height: 350px; 
+	margin-bottom: 10px;
+	display: block;
+	margin-top: 2px;
+}
+#client-settings table {
+    border-spacing: 0;
+}
+#client-settings table td {
+    padding: 0;
+    vertical-align: top;
+}
+/*** client settings end ***/
+
+
+/*** regex start ***/
+a.edit-regex-link {
+    margin-right: 10px;
+}
+
+/*** regex ends ***/

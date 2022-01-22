@@ -1,0 +1,707 @@
+.MyRobloxContainer h1 {
+	display: block;
+}
+
+.StandardBox,
+.StandardBoxWhite,
+.StandardBoxGray {
+	float: none;
+	border: 2px solid #6e99c9;
+	background-color: White;
+	padding: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.StandardBoxWhite {
+	*zoom: 1;
+}
+
+.StandardBoxGrey {
+	float: inherit;
+	border: 2px solid #6e99c9;
+	background-color: #A6A6A6;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.StandardBoxHeader,
+.StandardBoxHeaderGray,
+.StandardTabWhite,
+.StandardTabGray,
+.StandardTabGrayActive {
+	float: none;
+	background-color: #6e99c9;
+	text-align: center;
+	color: White;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px 12px 5px 12px;
+	display: block;
+	*display: inline;
+	*zoom: 1;
+}
+
+.StandardBoxHeaderGray {
+	background-color: #A6A6A6;
+}
+
+.StandardTabWhite,
+.StandardTabGrayActive,
+.StandardTabGray {
+	display: inline-block;
+	height: 26px;
+	z-index: 2;
+	position: relative;
+	*display: inline;
+	*zoom: 1;
+}
+
+.StandardTabWhite span {
+	*padding-right: 14px;
+}
+
+.StandardTabGray {
+	background-color: #b4cde9;
+	margin-right: 4px;
+}
+
+.StandardTabGrayActive {
+	margin-right: 4px;
+}
+
+.StandardTabGray a,
+.StandardTabGrayActive a {
+	color: #333;
+}
+
+.StandardTabGray a:hover,
+.StandardTabGrayActive a:hover {
+	text-decoration: none;
+}
+
+.StandardTabGray:hover,
+.StandardTabGrayActive {
+	background-color: #6c98cb;
+	color: White;
+}
+
+#GroupsPeopleContainer .StandardTabGray,
+#GroupsPeopleContainer .StandardTabGrayActive {
+	position: relative;
+	top: 2px;
+}
+
+.StandardTabGray,
+.StandardTabGrayActive,
+.StandardTabGray:hover {
+	background: url(/images/cssspecific/rbx2/tab_white_31h_t1.png) no-repeat left top;
+	background-position: left 0;
+	height: 31px;
+	padding: 0;
+	text-align: left;
+	cursor: pointer;
+	margin: 0;
+}
+
+.StandardTabGray:hover {
+	background-position: left -31px;
+	z-index: 2;
+}
+
+.StandardTabGrayActive {
+	background-position: left -62px;
+}
+
+.StandardTabGray span,
+.StandardTabGrayActive span,
+.StandardTabGray span:hover {
+	background: url(/images/cssspecific/rbx2/tab_white_31h_t2.png) no-repeat right top;
+	background-position: right 0;
+	height: 25px;
+	padding: 6px 16px 0 8px;
+	margin: 0 0 0 4px;
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+}
+
+.StandardTabGray span:hover {
+	background-position: right -31px;
+}
+
+.StandardTabGrayActive span {
+	background-position: right -62px;
+}
+
+.StandardBox {
+	padding: 5px;
+	margin-bottom: 8px;
+	background: url(/images/cssspecific/rbx2/standardBox_01_bkg.png) top repeat-x #fff;
+	border: 1px solid #aaa;
+	z-index: 0;
+}
+
+.StandardBoxHeader,
+.StandardBoxHeaderGray {
+	height: 33px;
+	padding: 0 7px 0 5px;
+	text-align: left;
+	z-index: 2;
+	background: url(/images/cssspecific/rbx2/tab_black_33h_t1.png) no-repeat left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	z-index: 0;
+}
+
+.StandardBoxHeaderGray {
+	background: url(/images/cssspecific/rbx2/tab_gray_33h_t1.png) no-repeat left top;
+}
+
+.StandardBoxHeader span,
+.StandardBoxHeaderGray span {
+	display: block;
+	width: 100%;
+	height: 29px;
+	padding: 5px 5px 0 2px;
+	background: url(/images/cssspecific/rbx2/tab_black_33h_t2.png) no-repeat right top;
+	overflow: hidden;
+}
+
+.StandardBoxHeaderGray span {
+	background: url(/images/cssspecific/rbx2/tab_gray_33h_t2.png) no-repeat right top;
+}
+
+.StandardTabWhite {
+	background: url(/images/cssspecific/rbx2/tab_white_26h_t1.png) no-repeat left top;
+	padding: 0 4px;
+	float: none;
+	text-align: left;
+}
+
+.StandardTabWhite span {
+	display: block;
+	width: 100%;
+	*width: 115%;
+	height: 26px;
+	padding: 5px 5px 0 9px;
+	*padding-right: 14px;
+	background: url(/images/cssspecific/rbx2/tab_white_26h_t2.png) no-repeat right top;
+	font-size: 14px;
+	color: #000;
+	font-weight: normal;
+}
+
+.StandardBoxWhite {
+	position: relative;
+	top: -1px;
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 8px;
+	color: Black;
+}
+
+.StandardBoxGray {
+	position: relative;
+	top: -2px;
+	padding: 8px 5px;
+	background: url(/images/cssspecific/rbx2/standardBox_01_bkg.png) top repeat-x #fff;
+	border: 1px solid #aaa;
+}
+
+.Column1a {
+	width: 290px;
+	float: left;
+	margin-top: 10px;
+}
+
+.Column2a {
+	margin-top: 10px;
+	width: 600px;
+	float: right;
+}
+
+.Column1a .StandardBox {
+	width: 266px;
+}
+
+.Column1a .StandardBoxHeader,
+.Column1a .StandardBoxHeaderGray {
+	width: 266px;
+}
+
+.Column2a .StandardBox {
+	width: 576px;
+}
+
+.Column2a .StandardBoxHeader,
+.Column2a .StandardBoxHeaderGray {
+	width: 576px;
+}
+
+.Column1e {
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 150px;
+	float: left;
+}
+
+.Column2e {
+	margin-top: 10px;
+	width: 790px;
+	margin-left: 10px;
+	float: left;
+}
+
+.Column1f {
+	margin-top: 10px;
+	width: 375px;
+	float: left;
+}
+
+.Column2f {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 570px;
+	float: left;
+}
+
+.Repeater {
+	border: 0;
+	width: 100%;
+}
+
+.Repeater .AlternatingItemTemplateOdd {
+	background-color: #F3F3F3;
+	padding: 5px 5px 5px 5px;
+}
+
+.Repeater .AlternatingItemTemplateEven {
+	background-color: #fff;
+	padding: 5px;
+}
+
+.Repeater .RepeaterImage {
+	float: left;
+	vertical-align: top;
+	margin: 5px 5px 5px 5px;
+}
+
+.Repeater .RepeaterText {
+	float: left;
+	vertical-align: top;
+	margin: 5px 5px 5px 5px;
+}
+
+.Repeater thead {
+	font-size: 15px;
+	font-weight: normal;
+	color: #2163A5;
+	border-bottom: 1px solid #D3D3D3;
+}
+
+.DescriptionText {
+	font-size: 14px;
+	padding: 10px;
+	background: #D2E3F7;
+}
+
+.tab_white_31h_container .ajax__tab_header {
+	background: none;
+}
+
+.tab_white_31h_container .ajax__tab_outer {
+	margin: 0;
+	background: none;
+	height: auto;
+}
+
+.tab_white_31h_container .ajax__tab_inner {
+	position: relative;
+	background: url(/images/cssspecific/rbx2/tab_white_31h_t1.png) no-repeat left top;
+	height: 31px;
+	padding-left: 0;
+	z-index: 2;
+}
+
+.tab_white_31h_container .ajax__tab_tab {
+	background: url(/images/cssspecific/rbx2/tab_white_31h_t2.png) no-repeat right top;
+	height: 25px;
+	padding: 6px 16px 0 8px;
+	margin: 0 0 0 4px;
+}
+
+.tab_white_31h_container .ajax__tab_hover .ajax__tab_outer {
+	background: none;
+	height: auto;
+}
+
+.tab_white_31h_container .ajax__tab_hover .ajax__tab_inner {
+	position: relative;
+	background: url(/images/cssspecific/rbx2/tab_white_31h_t1.png) no-repeat left top;
+	background-position: left -31px;
+	height: 31px;
+	padding-left: 0;
+	z-index: 2;
+}
+
+.tab_white_31h_container .ajax__tab_hover .ajax__tab_tab {
+	background: url(/images/cssspecific/rbx2/tab_white_31h_t2.png) no-repeat right top;
+	background-position: right -31px;
+	height: 25px;
+	padding: 6px 16px 0 8px;
+	margin: 0 0 0 4px;
+}
+
+.tab_white_31h_container .ajax__tab_active .ajax__tab_outer {
+	background: none;
+	height: auto;
+}
+
+.tab_white_31h_container .ajax__tab_active .ajax__tab_inner {
+	position: relative;
+	background: url(/images/cssspecific/rbx2/tab_white_31h_t1.png) no-repeat left top;
+	background-position: left -62px;
+	height: 31px;
+	padding-left: 0;
+	z-index: 2;
+}
+
+.tab_white_31h_container .ajax__tab_active .ajax__tab_tab {
+	background: url(/images/cssspecific/rbx2/tab_white_31h_t2.png) no-repeat right top;
+	background-position: right -62px;
+	height: 25px;
+	padding: 6px 16px 0 8px;
+	margin: 0 0 0 4px;
+}
+
+.tab_white_31h_container .ajax__tab_body {
+	border: 1px solid #aaa;
+	padding: 8px 5px;
+	background: url(/images/cssspecific/rbx2/standardBox_01_bkg.png) top repeat-x #fff;
+	position: relative;
+	top: -2px;
+}
+
+.GreenButton,
+.RedButton2 {
+	display: inline-block;
+	font: bold 14px Arial, Helvetica, Sans-Serif;
+	cursor: pointer;
+	*display: inline;
+	*zoom: 1;
+}
+
+.GreenButton span,
+.RedButton2 span {
+	margin: 0 0 0 4px;
+	display: block;
+	padding: 7px 12px 0 5px;
+	cursor: pointer;
+	color: White;
+}
+
+.GreenButton span a,
+.RedButton2 span a {
+	color: White;
+	text-decoration: none;
+}
+
+.GreenButton:hover {
+	background-position: 0 -30px;
+	cursor: pointer;
+}
+
+.GreenButton span:hover {
+	background-position: right -30px;
+	cursor: pointer;
+}
+
+.GreenButton:hover,
+.RedButton2:hover {
+	text-decoration: none;
+}
+
+.GreenButton {
+	height: 30px;
+	background: url(/images/btn_green_30h_t1.png) no-repeat;
+}
+
+.GreenButton span {
+	height: 23px;
+	background: url(/images/btn_green_30h_t2.png) no-repeat top right;
+}
+
+.RedButton2 {
+	height: 40px;
+	background: url(/images/Buttons/btn_red_40h_t1.png) no-repeat;
+}
+
+.RedButton2 span {
+	height: 28px;
+	background: url(/images/Buttons/btn_red_40h_t2.png) no-repeat top right;
+	padding: 12px 12px 0 5px;
+}
+
+.RedButton2:hover {
+	background-position: 0 -40px;
+	cursor: pointer;
+}
+
+.RedButton2 span:hover {
+	background-position: right -40px;
+	cursor: pointer;
+}
+
+.Money {
+	color: #090;
+}
+
+.SuccessBox,
+.ResultSuccessBox {
+	border: solid 2px #a6dba6;
+	color: #090;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.ErrorBox,
+.ResultErrorBox {
+	border: solid 2px #ffa6a6;
+	color: #f00;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.SuccessBox,
+.ErrorBox {
+	margin: 10px 0;
+}
+
+.ResultSuccessBox,
+.ResultErrorBox {
+	height: 50px;
+}
+
+.ResultContainer {
+	height: 105px;
+	padding: 10px 0;
+	vertical-align: top;
+}
+
+.SuccessBox p {
+	margin: 0;
+}
+
+.MessageBox {
+	width: 305px;
+	float: right;
+}
+
+.MessageBox img {
+	float: left;
+	padding: 0 5px 7px 0;
+	height: 40px;
+}
+
+.MessageBox div {
+	padding-left: 5px;
+}
+
+.GameCardSpecialOffer {
+	height: 40px;
+	font-weight: bold;
+	padding-top: 4px;
+	font-size: 12px;
+}
+
+.GameCardText,
+.GameCardMessage {
+	float: right;
+	padding: 0;
+	width: 318px;
+}
+
+.GameCardPromo {
+	font-weight: bold;
+	font-size: 16px;
+	color: #333;
+}
+
+.BoxTextAligned {
+	margin-left: 10px;
+	position: relative;
+	top: -20px;
+}
+
+.GamecardBoxTextAligned {
+	margin-left: 10px;
+	position: relative;
+	top: -20px;
+	color: #333;
+}
+
+.ResultBoxTextAligned {
+	margin-left: 10px;
+	position: relative;
+	top: -40px;
+	left: 50px;
+	width: 75%;
+	display: block;
+}
+
+#SuccessMessageSubText,
+.GameCardMessage {
+	color: #333;
+	font-size: .8em;
+	padding-top: 5px;
+}
+
+#RedeemHeader {
+	color: #363636;
+	font: bold 24px Arial, Helvetica, sans-serif;
+	margin: 6px 6px 8px;
+	width: 50%;
+	float: left;
+}
+
+#RedeemContainer {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 14px;
+	color: Black;
+	z-index: 1;
+}
+
+#RedeemContainer a {
+	color: #095fb5;
+}
+
+#RedeemContainer a:hover {
+	text-decoration: none;
+}
+
+#RedeemContainer #pin {
+	height: 21px;
+	font-size: 12px;
+}
+
+#RedeemContainer #HowToUse {
+	margin-left: 12px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+#RedeemContainer ol {
+	line-height: 16px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#RedeemContainer ol li span {
+	font-weight: normal;
+}
+
+.OnePaymentFormDiv {
+	font-size: 11px;
+	color: #666;
+}
+
+.BigLinks {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.SkinnyRightArrow {
+	cursor: pointer;
+	background: url(/images/arrow_skinny55h_right.png) no-repeat;
+	width: 12px;
+	height: 55px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+.SkinnyRightArrow:hover {
+	background-position: 0 -55px;
+}
+
+.SkinnyRightArrowDisabled {
+	background: url(/images/arrow_skinny55h_right.png) no-repeat 0 -110px;
+	width: 12px;
+	height: 55px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+.SkinnyLeftArrow {
+	cursor: pointer;
+	background: url(/images/arrow_skinny55h_left.png) no-repeat;
+	width: 12px;
+	height: 55px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+.SkinnyLeftArrow:hover {
+	background-position: 0 -55px;
+}
+
+.SkinnyLeftArrowDisabled {
+	background: url(/images/arrow_skinny55h_left.png) no-repeat 0 -110px;
+	width: 12px;
+	height: 55px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+.BCHat {
+	background: url(/images/Games/gamesPage_bcHelmet.png) no-repeat;
+	width: 35px;
+	height: 29px;
+	display: inline-block;
+	margin-top: 1px;
+	*display: inline;
+	*zoom: 1;
+}
+
+.notificationBox {
+	display: inline-block;
+	background-color: #f00;
+	color: #fff;
+	height: 16px;
+	min-width: 18px;
+	width: auto;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 2px 2px 4px 2px;
+	padding: 0 2px;
+	line-height: 1.1em;
+	text-align: center;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.notificationBoxIE {
+	display: inline-block;
+	color: #fff;
+	background-image: url(/images/bg-notifications.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	min-width: 24px;
+	width: auto;
+	height: 16px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	*display: inline;
+	*zoom: 1;
+}

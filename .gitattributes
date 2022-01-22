@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*.css linguist-detectable=false
+*.aspx linguist-detectable=false
+*.ashx linguist-detectable=false
+*.ascx linguist-detectable=false
+*.axd linguist-detectable=false
+*.js linguist-detectable=false

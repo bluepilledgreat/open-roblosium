@@ -1,0 +1,181 @@
+#AccountPageLeft {
+	float: left;
+	width: 659px;
+}
+
+#AccountPageRight {
+	float: right;
+	width: 310px;
+}
+
+.SettingsTitle {
+	font: normal bold 16px arial;
+	margin: 10px;
+}
+
+.SettingSubTitle {
+	padding-bottom: 15px;
+}
+
+#AccountPageContainer {
+	padding-bottom: 10px;
+}
+
+#UpdateSettings {
+	margin: 30px 0;
+}
+
+.blurbGreyText {
+	color: #666;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+#blurbDesc {
+	float: left;
+	position: relative;
+}
+
+#emailBlock {
+	float: left;
+	position: relative;
+}
+
+a.upgradeBC {
+	width: 166px;
+}
+
+a.buyRobux {
+	width: 166px;
+}
+
+.unlock-button {
+	margin-top: 9px;
+	float: left;
+	padding-right: 5px;
+}
+
+.verifiedEmail {
+	width: 52px;
+	height: 13px;
+	background: url("/images/Accounts/img-verified.png") no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.font12pxStyle {
+	font-weight: normal;
+}
+
+.lightGreyInfoText {
+	color: #666;
+	font: normal 11px arial;
+}
+
+.settingsStatusBar {
+	font: normal 12px arial;
+	width: 639px;
+}
+
+.settingLabel {
+	width: 138px;
+	display: inline-block;
+}
+
+.settings-section {
+	padding-top: 5px;
+}
+
+#PrivacySettings .form-label {
+	margin-bottom: 15px;
+	line-height: 24px;
+}
+
+.errorStatusBar {
+	color: black;
+	background-color: #FAE5E5;
+	border: solid 1px #c00;
+	margin-bottom: 10px;
+	text-align: left;
+	padding-left: 10px;
+	height: inherit;
+	min-height: 26px;
+}
+
+.emailInput {
+	width: 170px;
+	height: 15px;
+}
+
+#birthdayError {
+	float: left;
+	height: inherit;
+	left: 10px;
+	position: relative;
+}
+
+.fixParentEmail {
+	position: relative;
+	right: 28px;
+}
+
+.btn_blue_ok_l {
+	cursor: pointer;
+	width: 102px;
+	height: 50px;
+	background: url(/images/Accounts/btn_blue_ok_l.png);
+}
+
+.btn_blue_ok_l:hover {
+	background-position: 0 50px;
+}
+
+.InlineSuperSafeDiv .SuperSafePanel {
+	position: relative;
+	display: inline;
+}
+
+#AccountSettings .standardform {
+	float: left;
+	display: none;
+	position: relative;
+	top: -14px;
+}
+
+#AccountSettings .confirm-email-tooltip.standardform {
+	top: -5px;
+	left: 15px;
+	display: block;
+}
+
+.blurbSubtext {
+	width: 500px;
+}
+
+.billing-questions {
+	padding: 10px;
+}
+
+.billing-button {
+	margin-right: 5px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+.upgrade-account-button {
+	margin-bottom: 20px;
+}
+
+.billing-spacer {
+	margin-top: 5px;
+}
+
+#membership-text {
+	margin-bottom: 5px;
+}
+
+#lblNewsletter {
+	font-size: 12px;
+}

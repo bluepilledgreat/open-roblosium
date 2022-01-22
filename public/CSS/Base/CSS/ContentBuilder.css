@@ -1,0 +1,122 @@
+#ContentBuilderContainer {
+	margin-top: 10px;
+}
+
+#ContentBuilderContainer h2 {
+	margin: 0;
+	padding: 0;
+}
+
+#ContentBuilderContainer h3 {
+	padding: 5px;
+	text-align: center;
+}
+
+#ContentBuilderContainer blockquote {
+	margin: 0 auto;
+}
+
+#ContentBuilderContainer .GamePass .Label {
+	width: 100px;
+	display: block;
+	float: left;
+}
+
+#ContentBuilderContainer .GamePass .Robux {
+	background: url('/images/Icons/img-robux.png') no-repeat 0 1px;
+	padding: 0 0 2px 20px;
+	color: #060;
+	margin-bottom: 2px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#ContentBuilderContainer .GamePass .PurchaseModalFooter {
+	text-align: left;
+}
+
+#ContentBuilderContainer .GamePass .FormElement {
+	margin-bottom: 20px;
+}
+
+#ContentBuilderContainer .GamePass .PreviewImage {
+	float: left;
+	margin-right: 20px;
+}
+
+#ContentBuilderContainer .GamePass .InstructionsGraphic {
+	background: url('/images/BuildPage/img-instructions.png') no-repeat;
+	width: 966px;
+	height: 323px;
+	position: relative;
+}
+
+#ContentBuilderContainer .GamePass .BlueDownloadBtn {
+	display: block;
+	height: 34px;
+	width: 122px;
+	background: url('/images/Buttons/btn-blue-download_m.png') no-repeat top left;
+	position: absolute;
+	bottom: 27px;
+	left: 33px;
+}
+
+#ContentBuilderContainer .GamePass .BlueDownloadBtn:hover {
+	background-position: bottom left;
+}
+
+#ContentBuilderContainer .GamePass .GreenUploadBtn {
+	display: block;
+	height: 51px;
+	width: 130px;
+	background: url('/images/Buttons/btn-green-upload.png') no-repeat top left;
+}
+
+#ContentBuilderContainer .GamePass .GreenUploadBtn:hover {
+	background-position: bottom left;
+}
+
+#ContentBuilderContainer .UploaderPanel,
+#ContentBuilderContainer .UpsellPanel {
+	text-align: center;
+}
+
+#ContentBuilderContainer .SelectorArea {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#ContentBuilderContainer .DisclaimerLink {
+	z-index: 9;
+	display: inline;
+	font-size: 1.2em;
+}
+
+#ContentBuilderContainer .DisclaimerLink a span {
+	display: none;
+}
+
+#ContentBuilderContainer .DisclaimerLink a:hover {
+	text-decoration: none;
+	border: none;
+}
+
+#ContentBuilderContainer .DisclaimerLink a:hover span {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 12%;
+	width: 75%;
+	padding: 5px;
+	margin: 5px;
+	z-index: 10;
+	color: white;
+	background-color: #6e99c9;
+	border-width: 1px;
+	border-color: Gray;
+	border-style: ridge;
+	text-decoration: none;
+	line-height: 1.4em;
+}

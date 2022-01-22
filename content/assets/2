@@ -1,0 +1,22 @@
+-- Library Registration Script
+-- This script is used to register RbxLua libraries on game servers, so game scripts have
+-- access to all of the libraries (otherwise only local scripts do)
+
+local sc = game:GetService("ScriptContext")
+local tries = 0
+ 
+while not sc and tries < 3 do
+	tries = tries + 1
+	sc = game:GetService("ScriptContext")
+	wait(0.2)
+end
+ 
+if sc then
+	sc:RegisterLibrary("Libraries/RbxGui", "17")
+	sc:RegisterLibrary("Libraries/RbxGear", "18")
+	sc:RegisterLibrary("Libraries/RbxUtility", "19")
+	sc:RegisterLibrary("Libraries/RbxStamper", "20")
+	sc:LibraryRegistrationComplete()
+else
+	print("failed to find script context, libraries did not load")
+end

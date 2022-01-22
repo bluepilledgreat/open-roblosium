@@ -1,0 +1,60 @@
+﻿.experiment {
+    clear: both;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+.experiment-details {
+    float: left;
+}
+.experiment-details span.name {
+    font-weight: bold;
+    font-size: 14px;
+}
+.versions {
+    clear: both;
+}
+.versions .version {
+    margin-top: 10px;
+}
+input.short {
+    width: 25px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ccc;
+}
+.clear {
+    clear: both;
+}
+.inactive-experiments {
+    width: 45%;
+    float: right;
+}
+.active-experiments {
+    margin-right: 20px;
+    width: 45%;
+    float: left;
+}
+.ContentPaneFloat {
+    min-width: 1000px;
+}
+.hint {
+    font-size: 11px;
+    color: #666;
+}
+.hide {
+    display: none;
+}
+.label {
+    font-weight: normal;
+}
+.buttons span {
+    float: left;
+    display: block;
+}
+.message {
+    background: #fff;
+    border: 1px solid skyblue;
+    display: inline;
+}

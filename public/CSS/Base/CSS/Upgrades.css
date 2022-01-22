@@ -1,0 +1,786 @@
+#PaymentMethodsContainer,
+#PaymentContainer,
+#PayPalContainer {
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 20px 80px;
+}
+
+#UpgradeCompleteContainer {
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+#MembershipOptions .Label {
+	text-align: center;
+}
+
+#PaymentMethodsContainer .PaymentMethods {
+	border: none;
+	margin: 20px auto;
+	padding: 10px;
+	width: 600px;
+}
+
+#PaymentMethodsHeader {
+	margin: 0 auto;
+	padding-left: 60px;
+	width: 600px;
+}
+
+.PaymentMethodRow {
+	background-color: transparent;
+	color: #090;
+}
+
+.PaymentMethodRow:hover {
+	background-color: #f2f2f2;
+	cursor: pointer;
+	color: #00d900;
+}
+
+.PaymentMethodRowUnavailable a {
+	color: #090;
+}
+
+.PaymentMethodRow td,
+.PaymentMethodRowUnavailable td {
+	border: none;
+	padding: 20px;
+}
+
+#PaymentMethodsContainer .PaymentMethodName {
+	color: #333;
+	font-weight: bold;
+	font-size: medium;
+}
+
+#Legend {
+	margin-top: 10px;
+}
+
+#CurrentBalance {
+	color: #333;
+}
+
+#PaymentContainer #Account,
+#PaymentContainer #BillingInfo,
+#PaymentContainer #ProductAndPricing,
+#PaymentContainer #ProductAndPricing1,
+#PaymentContainer #CreditCard,
+#PayPalContainer #ConfirmDetails,
+#PayPalContainer #Notes {
+	margin-bottom: 20px;
+}
+
+#PaymentContainer #Pay,
+#PayPalContainer #Continue {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.PaymentDropDownList {
+	padding: 5px;
+	width: 95%;
+}
+
+#PaymentContainer .Label,
+#PayPalContainer .Label {
+	float: left;
+	font-size: 1.25em;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	vertical-align: middle;
+	width: 250px;
+}
+
+#PaymentContainer .BokuLabel {
+	float: none;
+	font-size: 1em;
+	font-weight: bold;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 6px 0 0;
+	vertical-align: middle;
+}
+
+#ConfirmDetails .Detail {
+	background-color: #EEE;
+	border-bottom: solid 1px #CCC;
+	border-top: solid 1px #CCC;
+	height: 40px;
+	line-height: 40px;
+}
+
+#PaymentContainer .Field,
+#PayPalContainer .Field {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	vertical-align: middle;
+	width: 400px;
+}
+
+#PaymentContainer .BokuField {
+	float: none;
+	font-size: 1em;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 6px 0 0;
+	;
+	vertical-align: middle;
+}
+
+#BokuOrderSummary {
+	font-weight: bold;
+	font-size: 1.25em;
+	padding: 0 20px 0 5px;
+	vertical-align: middle;
+}
+
+#PaymentContainer .Button,
+#PayPalContainer .Button {
+	font-size: 16px;
+	margin: 0 3px;
+}
+
+#PaymentMethodsContainer .ExistingSubscription {
+	font-size: 16px;
+	color: Blue;
+	width: 50%;
+	text-align: center;
+}
+
+#PayPalContainer .PayPalDisallowedMessage {
+	font-size: 16px;
+	padding-bottom: 12px;
+	color: Blue;
+	width: 90%;
+}
+
+#ProductAndPricing,
+#ProductAndPricing1 {
+	float: left;
+	width: 865px;
+}
+
+#ProductAndPricing .TotalRowName,
+#ProductAndPricing .TotalRowPrice {
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.TotalRowName,
+.TotalRowPrice,
+.ProductName,
+.SuperchargeProductName,
+.ProductPrice,
+.SuperchargeProductPrice {
+	float: left;
+	font-weight: bold;
+}
+
+.ProductName,
+.TotalRowName,
+.SuperchargeProductName {
+	width: 640px;
+}
+
+.ProductPrice,
+.TotalRowPrice,
+.SuperchargeProductPrice {
+	width: 200px;
+}
+
+.SuperchargeProductName,
+.SuperchargeProductPrice {
+	color: #E6B800;
+}
+
+#PaymentDetails #Account .Field,
+#PaymentDetails #ProductAndPricing .Field,
+#PayPalContainer #ConfirmDetails .Field {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+#PaymentDetailsTable {
+	width: 400px;
+}
+
+#UpgradeCompleteContainer #Message,
+#CancelAccountUpgradeContainer #Message,
+#AccountUpgradesConfirmationContainer #Message {
+	background-color: #eee;
+	border: solid 1px #ccc;
+	margin: 0 auto;
+	margin-top: 15px;
+	padding: 10px;
+	width: 580px;
+}
+
+.ExtensionNote {
+	margin: 10px 0;
+}
+
+.UpgradeStatus {
+	font-weight: bold;
+	margin: 20px;
+	text-align: center;
+}
+
+#BuildersClubContainer {
+	margin: 0 auto;
+	margin-left: -5px;
+	width: 900px;
+}
+
+#BuildersClubContainer #LeftColumn {
+	background-color: #fff;
+	width: 575px;
+	float: left;
+	margin-left: 5px;
+}
+
+#BuildersClubContainer #LeftColumn #MembershipOptions {
+	margin-bottom: 50px;
+	padding: 10px 10px 0 10px;
+}
+
+#BuildersClubContainer #LeftColumn #MembershipOptions .MembershipButton {
+	margin: 0 4px 0 4px;
+	float: left;
+	width: 130px;
+}
+
+#BuildersClubContainer #LeftColumn #MembershipOptions .BCButtonLabel {
+	color: #6e99c9;
+	margin-top: 4px;
+	text-align: center;
+}
+
+#BuildersClubContainer #LeftColumn h1 {
+	font-size: 20px;
+	color: #6e99c9;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#MembershipOptionsTable {
+	width: 500px;
+	margin: auto;
+}
+
+#MembershipOptionsTable tr {
+	text-align: center;
+}
+
+#MembershipOptionsTable td {
+	width: 100px;
+	margin: 38px;
+}
+
+#MembershipOptionsTable td .BCButton {
+	padding-left: 35px;
+	padding-right: 0;
+}
+
+#MembershipOptionsTable .BCText {
+	padding-right: 20px;
+	width: 150px;
+	text-align: left;
+}
+
+.TurboSpan {
+	color: #72942E;
+}
+
+#upgrades-membership-options {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 13px;
+	background: #fff;
+	padding-top: 10px;
+	clear: left;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#upgrades-membership-options th {
+	font-size: 15px;
+	font-weight: normal;
+	color: #2163A5;
+	padding: 5px 8px;
+	border-bottom: 1px solid #D3D3D3;
+	line-height: 32px;
+}
+
+#upgrades-membership-options th img {
+	float: left;
+}
+
+#upgrades-membership-options td {
+	color: #2163A5;
+	padding: 5px 10px;
+}
+
+#upgrades-membership-options tbody tr:hover td {
+	color: Maroon;
+}
+
+#upgrades-membership-options .leftBorder {
+	border-left: 1px solid #D3D3D3;
+	width: 150px;
+}
+
+#upgrades-membership-options .odd {
+	background: #e8edff;
+}
+
+#upgrades-membership-options .LeftText {
+	text-align: left;
+}
+
+#BuildersClubContainer #LeftColumn #WindowsOnlyWarning {
+	padding-left: 10px;
+	padding-bottom: 1px;
+}
+
+#BuildersClubContainer #RightColumn {
+	margin: 10px 5px;
+	width: 290px;
+	float: right;
+	width: 285px;
+}
+
+.RightColumnBox,
+#UpgradeCompleteContainer {
+	border: 2px solid #6e99c9;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #fff;
+}
+
+.RightColumnBox a {
+	text-decoration: underline;
+}
+
+.RightColumnBox h2 {
+	float: left;
+	font-size: 14px;
+	color: Maroon;
+}
+
+.RightColumnBox h3 {
+	text-align: left;
+	font-size: 11px;
+	clear: both;
+}
+
+.RightColumnBox h1 {
+	float: left;
+	font-size: 16px;
+	color: Maroon;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.RightColumnManageAccount {
+	border-left: 2px solid #6e99c9;
+	border-bottom: 2px solid #6e99c9;
+	border-right: 2px solid #6e99c9;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+#CancelMembership {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#RightColumn #ManageAccountBody {
+	padding: 10px;
+}
+
+#RightColumn #ManageAccount #CancelMembershipButton,
+#RedirectToLoginLink {
+	text-align: center;
+}
+
+.OBCSellButton {
+	border: 0;
+	cursor: pointer;
+	top: 218px;
+	position: absolute;
+}
+
+.cardPanelLeft {
+	margin: 25px 0 15px 12px;
+	float: left;
+}
+
+.cardPanelRight {
+	margin-right: 12px;
+	margin-top: 10px;
+	float: right;
+}
+
+.centeredImage {
+	margin-bottom: 10px;
+}
+
+#GameCardButtonContainer {
+	clear: both;
+	margin: 15px 0;
+}
+
+.WhereToBuyTableCell,
+WhereToBuyTableCellRight {
+	width: 320px;
+	padding: 10px 0;
+}
+
+.WhereToBuyTableCellRight {
+	text-align: left;
+}
+
+.AwardAssetDisplayList {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: top;
+	width: 100px;
+	height: 135px;
+}
+
+.PaymentTextBox {
+	padding: 5px;
+	width: 90%;
+}
+
+.PaymentLabel {
+	width: 120px;
+	font-weight: bold;
+}
+
+.PaymentPadding {
+	padding: 5px;
+}
+
+.AutoRecurText {
+	color: Red;
+	display: none;
+}
+
+.PayTypesLeftColumn,
+.PayTypesRightColumn {
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 12px;
+	text-align: right;
+	width: 115px;
+}
+
+.PayTypesRightColumn {
+	padding-left: 18px;
+	width: 133px;
+	text-align: left;
+}
+
+.PayTypesCenter {
+	text-align: center;
+}
+
+div.GiftCards {
+	height: 625px;
+}
+
+.GiftCards #Column1 {
+	display: inline-block;
+	float: left;
+	left: 14px;
+	position: relative;
+}
+
+.GiftCards #Column2 {
+	display: inline-block;
+	float: right;
+	height: 496px;
+	position: relative;
+	right: 14px;
+}
+
+.GiftCards #Products {
+	position: relative;
+	top: -4px;
+	cursor: pointer;
+}
+
+.GiftCards #GiftForm {
+	padding: 10px;
+	background: #E1E1E1;
+	width: 400px;
+	color: black;
+	border: 1px solid #A7A7A7;
+}
+
+.GiftCards #ErrorDiv {
+	color: orange;
+	font-weight: bold;
+}
+
+.GiftCards #PurchaseButtonContainer {
+	text-align: right;
+	margin-top: 16px;
+	font-weight: bold;
+	color: black;
+}
+
+.GiftCards #CreateHeader {
+	display: block;
+	margin: 10px 0 0 14px;
+}
+
+.GiftCards .GiftHeader {
+	margin: 10px 0;
+}
+
+.GiftCards .GCProduct {
+	background-repeat: no-repeat;
+	height: 109px;
+	width: 421px;
+	margin: 12px 0;
+	position: relative;
+}
+
+.GiftCards .GCTheme {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-repeat: no-repeat;
+	height: 77px;
+	width: 103px;
+	margin: 0 12px 0 0;
+	position: relative;
+	cursor: pointer;
+}
+
+.GiftCards #GCTheme1 {
+	*margin: -14px 12px 0 132px;
+}
+
+.GiftCards #GCTheme2 {
+	*margin: -14px 12px 0 0;
+}
+
+.GiftCards .CheckMark {
+	background-image: url(/images/Gifting/img-unchecked.png);
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	width: 25px;
+	height: 24px;
+}
+
+.GiftCards .GCProductSelected .CheckMark {
+	background-image: url(/images/Gifting/img-checked.png);
+}
+
+.GiftCards .ThemeCheckMark {
+	background: url(/images/Gifting/img-checked-small.png) no-repeat 0 -25px;
+	position: absolute;
+	top: 3px;
+	right: 4px;
+	height: 17px;
+	width: 19px;
+}
+
+.GiftCards .GCThemeSelected .ThemeCheckMark {
+	background-position: 0 0;
+}
+
+.GiftCards #Product0 {
+	background: url("/images/gifting/new/gifting_bc.jpg") center no-repeat;
+}
+
+.GiftCards #Product0:hover {
+	background-color: #283d68;
+}
+
+.GiftCards #Product1 {
+	background: url("/images/gifting/new/gifting_tbc.jpg") center no-repeat;
+}
+
+.GiftCards #Product1:hover {
+	background-color: #630;
+}
+
+.GiftCards #Product2 {
+	background: url("/images/gifting/new/gifting_obc.jpg") center no-repeat;
+}
+
+.GiftCards #Product2:hover {
+	background-color: #000;
+}
+
+.GiftCards #Product3 {
+	background: url("/images/gifting/new/gifting_anyAmount.jpg") center no-repeat;
+}
+
+.GiftCards #Product3:hover {
+	background-color: #004d00;
+}
+
+.GiftCards .GCThemeClassic {
+	background: url("/images/gifting/theme-thumb-classic.png") no-repeat 0 0;
+}
+
+.GiftCards .GCThemeClassic:hover {
+	background-position: 0 -77px;
+}
+
+.GiftCards .GCThemeChristmas {
+	background: url("/images/gifting/theme-thumb-christmas.png") no-repeat 0 0;
+}
+
+.GiftCards .GCThemeChristmas:hover {
+	background-position: 0 -77px;
+}
+
+.GiftCards .GCThemeJustForYou1 {
+	background: url("/images/gifting/theme-thumb-justforyou1.png") no-repeat 0 0;
+}
+
+.GiftCards .GCThemeJustForYou1:hover {
+	background-position: 0 -77px;
+}
+
+.GiftCards .GCThemeJustForYou2 {
+	background: url("/images/gifting/theme-thumb-justforyou2.png") no-repeat 0 0;
+}
+
+.GiftCards .GCThemeJustForYou2:hover {
+	background-position: 0 -77px;
+}
+
+.GiftCards .ThemePreview {
+	position: absolute;
+	width: 261px;
+	height: 194px;
+	top: 30px;
+	right: 20px;
+	display: none;
+}
+
+.GiftCards .GCThemeClassic .ThemePreview {
+	background: url("/images/gifting/theme-preview-classic.png") no-repeat 0 0;
+}
+
+.GiftCards .GCThemeChristmas .ThemePreview {
+	background: url("/images/gifting/theme-preview-christmas.png") no-repeat 0 0;
+}
+
+.GiftCards .GCThemeJustForYou1 .ThemePreview {
+	background: url("/images/gifting/theme-preview-justforyou1.png") no-repeat 0 0;
+}
+
+.GiftCards .GCThemeJustForYou2 .ThemePreview {
+	background: url("/images/gifting/theme-preview-justforyou2.png") no-repeat 0 0;
+}
+
+.GiftCards .Hint {
+	color: Orange;
+	font: bold 19px Arial, Helvetica, Sans-Serif;
+}
+
+.GiftCards .GCProduct input {
+	color: #888;
+}
+
+.GiftCards .GCProductSelected input {
+	color: #000;
+}
+
+.GiftCards .GiftFieldInput {
+	width: 240px;
+}
+
+.GiftCards .GiftFieldLabel {
+	color: black;
+	display: inline-block;
+	font-weight: bold;
+	padding-left: 10px;
+	width: 120px;
+}
+
+.GiftCards #CustomValueDollars {
+	text-align: right;
+	width: 50px;
+}
+
+.GiftCards #CustomValueCents {
+	width: 20px;
+}
+
+.PreviewGiftCard,
+.EditGiftCard {
+	color: #00f;
+	text-decoration: underline;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.PreviewGiftCard:hover,
+.EditGiftCard:hover {
+	color: #00d;
+}
+
+.OrderSummary #ThankYou {
+	font: bold 18px Arial, Helvetica, Sans-Serif;
+}
+
+.OrderSummary #SummaryText {
+	margin: 12px 0 18px 10px;
+	line-height: 1.5em;
+}
+
+.OrderSummary #GiftCardContainer {
+	margin: 0 0 10px 10px;
+}
+
+.OrderSummary #GiftCardTable .Header {
+	font-weight: bold;
+}
+
+.OrderSummary .PurchaseAnother {
+	background: url(/images/Buttons/btn-purchase_another.png) no-repeat;
+	display: inline-block;
+	*display: inline;
+	width: 219px;
+	height: 50px;
+}
+
+.OrderSummary .PurchaseAnother:hover {
+	background-position: 0 -50px;
+}
+
+.OldStyle .MicroNode {
+	display: block;
+	margin: 15px auto;
+	text-align: center;
+}
+
+.boku-products-container .country-container {
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+
+.boku-products-container .form-label {
+	margin-bottom: 10px;
+}

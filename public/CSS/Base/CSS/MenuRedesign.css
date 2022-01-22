@@ -1,0 +1,84 @@
+#AlertSpace #SettingsButtonContainer:hover {
+	background: url(/images/RevisedHeader/bg-main_menu_hover.png) repeat-x;
+}
+
+.BannerRedesign {
+	background: url(/images/RevisedHeader/bg-rbx_header.png) repeat-x;
+	height: 36px;
+	background-color: #114081;
+	position: fixed;
+	width: 100%;
+	z-index: 10001;
+	top: 0;
+}
+
+#hlMore {
+	margin-top: 8px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.dropdownnavcontainer .dropdownoption {
+	position: relative;
+	cursor: pointer;
+}
+
+.AlertItem .AlertTextWrapper {
+	margin-left: 17px;
+}
+
+.dropdownmainnav .dropdownoption span {
+	margin-left: 1px;
+	font-weight: normal;
+	padding: 1px 10px 1px 5px;
+}
+
+.mySubmenuFixed.Redesign {
+	position: fixed;
+	top: 35px;
+}
+
+#iFrameLogin {
+	border: 1px solid #0C3060;
+	border-top: none;
+	height: 128px;
+	position: absolute;
+	right: 0;
+	top: 26px;
+	width: 340px;
+}
+
+.fbSplashPageConnect {
+	margin: 5px 0;
+}
+
+#facebookSignIn {
+	margin-top: 8px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#headerLogin .grey-arrow {
+	color: #666;
+	font-size: 12px;
+}
+
+#headerLogin.btn-control.btn-control-large.active {
+	background-image: none;
+	background-color: #e1e1e1;
+	border-color: #000;
+}
+
+#headerLogin {
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	letter-spacing: -1px;
+	position: relative;
+	width: 62px;
+}
+
+.loginFrame {
+	height: 100%;
+	width: 100%;
+}

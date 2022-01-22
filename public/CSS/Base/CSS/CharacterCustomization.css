@@ -1,0 +1,150 @@
+.CustomizeCharacterContainer {
+	margin: 0;
+}
+
+.CustomizeCharacterContainer h4 {
+	background-color: #ccc;
+	border-bottom: solid 1px #000;
+	color: #333;
+	margin: 0;
+	text-align: center;
+}
+
+.CustomizeCharacterContainer .NoResults {
+	padding: 0;
+	text-align: center;
+	line-height: 40px;
+}
+
+.CustomizeCharacterContainer .AttireContent {
+	min-height: 350px;
+}
+
+.CustomizeCharacterContainer .TileGroup {
+	min-height: 175px;
+	clear: left;
+	text-align: center;
+}
+
+.CustomizeCharacterContainer .Asset {
+	float: left;
+	margin: 5px 7px 5px 0;
+	text-align: left;
+	vertical-align: top;
+	width: 130px;
+}
+
+.CustomizeCharacterContainer .Asset .AssetThumbnail {
+	height: 110px;
+	position: relative;
+	text-align: center;
+	width: 128px;
+}
+
+.CustomizeCharacterContainer .Asset .AssetDetails {
+	overflow: hidden;
+	padding: 2px 0 6px 0;
+	text-align: left;
+	width: 125px;
+}
+
+.CustomizeCharacterContainer .AssetName a {
+	font-weight: bold;
+	line-height: 1.5em;
+	vertical-align: top;
+}
+
+.CustomizeCharacterContainer .Label,
+.CustomizeCharacterContainer .Detail,
+.CustomizeCharacterContainer .DetailHighlighted {
+	font-size: 12px;
+}
+
+.CustomizeCharacterContainer .Label {
+	font-weight: 600;
+	color: #999;
+}
+
+.CustomizeCharacterContainer .FooterPager {
+	clear: left;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.AttireChooser {
+	border: solid 1px #000;
+	float: left;
+	margin: 0;
+	min-width: 0;
+	padding: 0;
+	position: relative;
+	text-align: left;
+	width: 530px;
+}
+
+.Accoutrements {
+	border: solid 1px #000;
+	clear: left;
+	margin-top: 10px;
+	min-width: 0;
+	padding: 0;
+	position: relative;
+	text-align: left;
+	width: 530px;
+}
+
+.AttireChooser .AttireCategory {
+	border-bottom: solid 1px #000;
+	margin: 0 0 10px 0;
+	padding: 3px 0;
+	text-align: center;
+}
+
+.AttireChooser .AttireOptions {
+	margin: 5px;
+}
+
+.AttireCategory {
+	height: 60px;
+}
+
+.AttireCategory .AttireCategorySelector_Selected {
+	font-weight: bold;
+}
+
+.AttireChooser .HeaderPager,
+.AttireChooser .HeaderPager {
+	margin-bottom: 10px;
+}
+
+.AttireChooser .HeaderPager .Label,
+.AttireChooser .FooterPager .Label {
+	font-size: 1em;
+	vertical-align: middle;
+}
+
+.ReDrawAvatar {
+	margin-top: 5px;
+}
+
+.Mannequin {
+	clear: right;
+	margin-top: 10px;
+	text-align: center;
+	width: 350px;
+	height: 400px;
+}
+
+.Mannequin .ColorChooserFrame {
+	margin: 10px auto 0;
+}
+
+.Mannequin .ColorChooserRegion {
+	border: 1px solid #ddd;
+}
+
+.TeeShirtBuilder {
+	border: solid 1px #000;
+	clear: both;
+	margin-top: 10px;
+}
