@@ -1,5 +1,5 @@
 # Open Roblosium
-An old version of the Roblosium V3 codebase
+An old version of the Roblosium V3 codebase  
 This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 ## Requirements
 - [nginx](https://nginx.org/en/download.html) (version 1.21 or up)
